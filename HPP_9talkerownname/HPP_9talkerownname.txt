@@ -1,0 +1,105 @@
+SIDES ARE {CENTER, RIGHT, LEFT}
+LIGHTS ARE {LEFT, CENTER, RIGHT}
+
+LET trainingmusic1 = "C:\Users\ldev\Desktop\BITTSy\HPPExample\trainingmusic1.wav"
+LET trainingmusic2 = "C:\Users\ldev\Desktop\BITTSy\HPPExample\trainingmusic2.wav"
+
+LET ownname = "C:\Users\ldev\Desktop\BITTSy\HPPExample\bella_sm_10dB.wav"
+LET matchedfoil = "C:\Users\ldev\Desktop\BITTSy\HPPExample\mason_sm_10dB.wav"
+LET unmatchedfoil1 = "C:\Users\ldev\Desktop\BITTSy\HPPExample\elise_sm_10dB.wav"
+LET unmatchedfoil2 = "C:\Users\ldev\Desktop\BITTSy\HPPExample\nicole_sm_10dB.wav"
+
+LET trainingsides = {LEFT, RIGHT}
+LET testsides = {LEFT, RIGHT}
+LET trainingmusic = {trainingmusic1, trainingmusic2}
+LET testblock1 = {ownname, matchedfoil, unmatchedfoil1, unmatchedfoil2}
+LET testblock2 = {ownname, matchedfoil, unmatchedfoil1, unmatchedfoil2}
+LET testblock3 = {ownname, matchedfoil, unmatchedfoil1, unmatchedfoil2}
+LET testblock4 = {ownname, matchedfoil, unmatchedfoil1, unmatchedfoil2}
+LET testaudio = {testblock1, testblock2, testblock3, testblock4}
+
+DEFINE COMPLETELOOK 100
+DEFINE COMPLETELOOKAWAY 100
+DEFINE ASSIGN LEFT KEY L
+DEFINE ASSIGN RIGHT KEY R
+DEFINE ASSIGN CENTER KEY C
+DEFINE ASSIGN AWAY KEY W
+
+STEP 1
+Phase Train Start
+
+STEP 2
+LIGHT CENTER BLINK 250
+UNTIL KEY C
+
+STEP 3
+LIGHT CENTER OFF
+
+STEP 4
+LET side1 = (FROM trainingsides RANDOM {with max 2 repeats in succession})
+LIGHT side1 BLINK 250
+UNTIL KEY L
+UNTIL KEY R
+
+STEP 5
+Trial Start
+LET training_audio = (FROM trainingmusic RANDOM {with max 0 repeats in succession})
+AUDIO side1 training_audio ONCE
+UNTIL FINISHED
+UNTIL SINGLELOOKAWAY training_audio GREATERTHAN 2000
+
+STEP 6
+Trial End
+LIGHT side1 OFF
+AUDIO side1 OFF
+UNTIL TIME 100
+
+STEP 7
+LOOP STEP 2
+UNTIL TOTALLOOK trainingmusic1 GREATERTHAN 25000 THIS PHASE and TOTALLOOK trainingmusic2 GREATERTHAN 25000 THIS PHASE
+
+STEP 8
+Phase End
+
+STEP 9
+Phase Test Start
+
+STEP 10
+LET block = (TAKE testaudio FIRST)
+
+STEP 11
+LIGHT CENTER BLINK 250
+UNTIL KEY C
+
+STEP 12
+LIGHT CENTER OFF
+
+STEP 13
+LET side2 = (FROM testsides RANDOM {with max 2 repeats in succession})
+LIGHT side2 BLINK 250
+UNTIL KEY L
+UNTIL KEY R
+
+STEP 14
+Trial Start
+LET trial_audio = (TAKE block RANDOM)
+AUDIO side2 trial_audio ONCE
+UNTIL FINISHED
+UNTIL SINGLELOOKAWAY trial_audio GREATERTHAN 2000
+
+STEP 15
+Trial End
+AUDIO side2 OFF
+LIGHT side2 OFF
+UNTIL TIME 100
+
+STEP 16
+LOOP STEP 11
+UNTIL 3 TIMES
+
+STEP 17
+LOOP STEP 10
+UNTIL 3 TIMES
+
+STEP 18
+Phase End
