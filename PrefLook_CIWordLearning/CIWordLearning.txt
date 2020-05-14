@@ -1,0 +1,114 @@
+DISPLAYS ARE {CENTER}
+SIDES ARE {CENTER, RIGHT, LEFT}
+
+LET attentiongetter = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\baby.mp4"
+LET silent_spike_fred = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\silent_spike_fred.mp4"
+LET silent_fred_spike = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\silent_fred_spike.mp4"
+LET coopa_fred = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_fred.mp4"
+LET coopa_spike = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_spike.mp4"
+LET needoke_fred = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_fred.mp4"
+LET needoke_spike = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_spike.mp4"
+LET coopa_fred_left = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_fred_spike.mp4"
+LET coopa_fred_right = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_spike_fred.mp4"
+LET needoke_fred_left = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_fred_spike.mp4"
+LET needoke_fred_right = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_spike_fred.mp4"
+LET coopa_spike_left = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_spike_fred.mp4"
+LET coopa_spike_right = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\coopa_fred_spike.mp4"
+LET needoke_spike_left = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_spike_fred.mp4"
+LET needoke_spike_right = "C:\Users\ldev\Desktop\BITTSy\CIWordLearning\needoke_fred_spike.mp4"
+
+LET order1_train = {coopa_spike, needoke_fred}
+LET order1A_baseline = {silent_fred_spike}
+LET order1B_baseline = {silent_spike_fred}
+LET order1A_test = {coopa_spike_right, needoke_fred_left}
+LET order1B_test = {coopa_spike_left, needoke_fred_right}
+LET order1A = {order1_train, order1A_baseline, order1A_test}
+LET order1B = {order1_train, order1B_baseline, order1B_test}
+
+LET order2_train = {coopa_fred, needoke_spike}
+LET order2A_baseline = {silent_fred_spike}
+LET order2B_baseline = {silent_spike_fred}
+LET order2A_test = {coopa_fred_left, needoke_spike_right}
+LET order2B_test = {coopa_fred_right, needoke_spike_left}
+LET order2A = {order2_train, order2A_baseline, order2A_test}
+LET order2B = {order2_train, order2B_baseline, order2B_test}
+
+LET orders = {order1A, order1B, order2A, order2B}
+
+STEP 1
+Phase Train Start
+LET order = (FROM orders RANDOM)
+LET training_group = (TAKE order FIRST)
+LET baseline_group = (TAKE order FIRST)
+LET test_group = (TAKE order FIRST)
+
+STEP 2
+VIDEO CENTER attentiongetter LOOP
+UNTIL KEY X
+
+STEP 3
+VIDEO CENTER OFF
+
+STEP 4
+Trial Start
+
+STEP 5
+LET training_trial = (FROM training_group RANDOM {with max 0 repeats in succession})
+VIDEO CENTER training_trial ONCE
+UNTIL FINISHED
+
+STEP 6
+Trial End
+VIDEO CENTER OFF
+
+STEP 7
+LOOP STEP 2
+UNTIL 7 TIMES
+
+STEP 8
+Phase End
+
+STEP 9
+Phase Test Start
+
+STEP 10
+VIDEO CENTER attentiongetter LOOP
+UNTIL KEY X
+
+STEP 11
+VIDEO CENTER OFF
+
+STEP 12
+Trial Start
+
+STEP 13
+LET baseline_trial = (FROM baseline_group FIRST)
+VIDEO CENTER baseline_trial ONCE
+UNTIL FINISHED
+
+STEP 14
+Trial End
+VIDEO CENTER OFF
+
+STEP 15
+VIDEO CENTER attentiongetter LOOP
+UNTIL KEY X
+
+STEP 16
+Trial Start
+
+STEP 17
+LET test_trial = (FROM test_group RANDOM {with max 3 repeats})
+VIDEO CENTER training_trial ONCE
+UNTIL FINISHED
+
+STEP 18
+Trial End
+VIDEO CENTER OFF
+
+STEP 19
+LOOP STEP 15
+UNTIL 7 TIMES
+
+STEP 20
+Phase End
