@@ -1,0 +1,190 @@
+SIDES ARE {CENTER, RIGHT, LEFT}
+DISPLAYS ARE {CENTER}
+
+# Example of habituation to a category. Infants are familiarized to exemplars of either dogs or cats until habituated (or maximum number of trials reached). They then see two test trials in a fixed order: first, an image from the non-familiarized category, then a new image from the familiarized category. (The idea here is that cats are perceptually more similar to each other than are dogs, and are a more easily learned category. Infants who are habituated to cats will show a recovery in looking time to the novel animal (a dog), but infants who are familiarized to dogs will habituate less quickly, and be less likely to show recovery in looking time to the cat in the test phase.)
+
+LET baby = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\baby.mp4"
+LET cat1 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat1.png"
+LET cat2 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat2.png"
+LET cat3 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat3.png"
+LET cat4 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat4.png"
+LET cat5 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat5.png"
+LET cat6 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat6.png"
+LET cat7 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat7.png"
+LET cat8 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat8.png"
+LET cat9 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat9.png"
+LET cat10 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat10.png"
+LET cat11 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat11.png"
+LET cat12 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat12.png"
+LET cat13 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat13.png"
+LET cat14 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat14.png"
+LET cat15 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat15.png"
+LET cat16 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat16.png"
+LET cat17 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat17.png"
+LET cat18 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat18.png"
+LET cat19 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat19.png"
+LET cat20 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat20.png"
+LET cat21 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\cats\cat21.png"
+LET dog1 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog1.png"
+LET dog2 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog2.png"
+LET dog3 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog3.png"
+LET dog4 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog4.png"
+LET dog5 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog5.png"
+LET dog6 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog6.png"
+LET dog7 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog7.png"
+LET dog8 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog8.png"
+LET dog9 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog9.png"
+LET dog10 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog10.png"
+LET dog11 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog11.png"
+LET dog12 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog12.png"
+LET dog13 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog13.png"
+LET dog14 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog14.png"
+LET dog15 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog15.png"
+LET dog16 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog16.png"
+LET dog17 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog17.png"
+LET dog18 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog18.png"
+LET dog19 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog19.png"
+LET dog20 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog20.png"
+LET dog21 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\dogs\dog21.png"
+LET turtle1 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\turtles\turtle1.png"
+LET turtle2 = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\turtles\turtle2.png"
+
+LET cats = {cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12, cat13, cat14, cat15, cat16, cat17, cat18, cat19, cat20}
+LET dogs = {dog1, dog2, dog3, dog4, dog5, dog6, dog7, dog8, dog9, dog10, dog11, dog12, dog13, dog14, dog15, dog16, dog17, dog18, dog19, dog20}
+LET prepost = {turtle1, turtle2}
+
+# The following definitions could be switched in a copy of this protocol file for counterbalancing purposes
+# No further changes to the protocol would be required after swapping the tags in the groups below
+LET fam_category = {cats}
+LET fam_test = {cat21}
+LET novel_test = {dog21}
+
+BACKGROUND WHITE
+DEFINE COMPLETELOOKAWAY 100
+DEFINE COMPLETELOOK 100
+
+DEFINE WINDOWSIZE 2
+DEFINE WINDOWOVERLAP NO
+DEFINE CRITERIONREDUCTION 0.65
+DEFINE BASISCHOSEN LONGEST
+DEFINE WINDOWTYPE SLIDING
+
+STEP 1
+Phase Pretrial Start
+
+STEP 2
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 3
+VIDEO CENTER OFF
+LET prepost1 = (TAKE prepost RANDOM)
+Trial Start
+
+STEP 4
+IMAGE CENTER prepost1
+UNTIL SINGLELOOKAWAY prepost1 GREATERTHAN 2000
+UNTIL TIME 20000
+
+STEP 5
+Trial End
+IMAGE CENTER OFF
+
+STEP 6
+Phase End
+
+STEP 7
+Phase Habituation Start
+LET fam_group = (FROM fam_category FIRST)
+
+STEP 8
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 9
+VIDEO CENTER OFF
+Trial Start
+
+STEP 10
+LET fam_item = (TAKE fam_group RANDOM)
+IMAGE CENTER fam_item
+UNTIL SINGLELOOKAWAY fam_item GREATERTHAN 2000
+UNTIL TIME 20000
+
+STEP 11
+Trial End
+IMAGE CENTER OFF
+
+STEP 12
+LOOP STEP 8
+UNTIL 19 TIMES
+UNTIL CRITERIONMET
+
+STEP 13
+Phase End
+
+STEP 14
+Phase Test Start
+
+STEP 15
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 16
+VIDEO CENTER OFF
+Trial Start
+
+STEP 17
+LET novel_testitem = (TAKE novel_test FIRST)
+IMAGE CENTER novel_testitem
+UNTIL TIME 20000
+UNTIL SINGLELOOKAWAY novel_testitem GREATERTHAN 2000
+
+STEP 18
+Trial End
+IMAGE CENTER OFF
+
+STEP 19
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 20
+VIDEO CENTER OFF
+Trial Start
+
+STEP 21
+LET fam_testitem = (TAKE fam_test FIRST)
+IMAGE CENTER fam_testitem
+UNTIL TIME 20000
+UNTIL SINGLELOOKAWAY fam_testitem GREATERTHAN 2000
+
+STEP 22
+Trial End
+IMAGE CENTER OFF
+
+STEP 23
+Phase End
+
+STEP 24
+Phase Posttest Start
+
+STEP 25
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 26
+VIDEO CENTER OFF
+LET prepost2 = (TAKE prepost RANDOM)
+Trial Start
+
+STEP 27
+IMAGE CENTER prepost2
+UNTIL SINGLELOOKAWAY prepost2 GREATERTHAN 2000
+UNTIL TIME 20000
+
+STEP 28
+Trial End
+IMAGE CENTER OFF
+
+STEP 29
+Phase End
