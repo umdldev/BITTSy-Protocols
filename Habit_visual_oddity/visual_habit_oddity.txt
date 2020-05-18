@@ -1,0 +1,140 @@
+SIDES ARE {CENTER, RIGHT, LEFT}
+DISPLAYS ARE {CENTER}
+
+# Example of implementation of a visual habituation-oddity paradigm. Infants are familiarized to a single video stimulus, then shown the same familiar video and a novel video in a dishabituation phase in which the novel video is displayed more rarely than the familiar video
+# Based on: Monroy, C., Shafto, C., Castellanos, I., Bergeson, T., & Houston, D. (2019). Visual habituation in deaf and hearing infants. PloS one, 14(2).
+# See methods in above for detailed explanation of structure
+
+LET baby = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\baby.mp4"
+LET prepost = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\prepost.mp4"
+LET fred = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\fred.mp4"
+LET spike = "C:\Users\ldev\Desktop\BITTSy\HabitExample\stim\spike.mp4"
+
+# To counterbalance which object is familiarized, another copy of this protocol would be made in which all tags in the definitions below ('spike' and 'fred') were switched
+
+LET fam_object = {fred}
+LET novel_object = {spike}
+LET test_block1 = {spike, fred}
+LET test_block2 = {spike, fred, fred, fred}
+LET test_block3 = {spike, fred, fred, fred}
+LET test_block4 = {spike, fred, fred, fred}
+LET test_phase = {test_block1, test_block2, test_block3, test_block4}
+
+DEFINE COMPLETELOOKAWAY 100
+DEFINE COMPLETELOOK 100
+
+DEFINE WINDOWSIZE 3
+DEFINE WINDOWOVERLAP NO
+DEFINE CRITERIONREDUCTION 0.50
+DEFINE BASISCHOSEN FIRST
+DEFINE WINDOWTYPE SLIDING
+
+STEP 1
+Phase Pretrial Start
+
+STEP 2
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 3
+VIDEO CENTER OFF
+Trial Start
+
+STEP 4
+VIDEO CENTER prepost LOOP
+UNTIL SINGLELOOKAWAY prepost GREATERTHAN 1000
+UNTIL TIME 20000
+
+STEP 5
+Trial End
+VIDEO CENTER OFF
+
+STEP 6
+Phase End
+
+STEP 7
+Phase Habituation Start
+
+STEP 8
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 9
+VIDEO CENTER OFF
+Trial Start
+
+STEP 10
+LET fam_item = (FROM fam_object FIRST)
+VIDEO CENTER fam_item LOOP
+UNTIL SINGLELOOKAWAY fam_item GREATERTHAN 1000
+UNTIL TIME 20000
+
+STEP 11
+Trial End
+VIDEO CENTER OFF
+
+STEP 12
+LOOP STEP 8
+UNTIL CRITERIONMET
+UNTIL 17 TIMES
+
+STEP 13
+Phase End
+
+STEP 14
+Phase Dishabituation Start
+
+STEP 15
+LET block = (TAKE test_phase FIRST)
+
+STEP 16
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 17
+VIDEO CENTER OFF
+Trial Start
+
+STEP 18
+LET test_tag = (TAKE block RANDOM)
+VIDEO CENTER test_tag LOOP
+UNTIL TIME 20000
+UNTIL SINGLELOOKAWAY test_tag GREATERTHAN 1000
+
+STEP 19
+Trial End
+VIDEO CENTER OFF
+
+STEP 20
+LOOP STEP 16
+UNTIL block EMPTY
+
+STEP 21
+LOOP STEP 15
+UNTIL 3 TIMES
+
+STEP 22
+Phase End
+
+STEP 23
+Phase Posttest Start
+
+STEP 24
+VIDEO CENTER baby LOOP
+UNTIL KEY C
+
+STEP 25
+VIDEO CENTER OFF
+Trial Start
+
+STEP 26
+VIDEO CENTER prepost LOOP
+UNTIL SINGLELOOKAWAY prepost GREATERTHAN 1000
+UNTIL TIME 20000
+
+STEP 27
+Trial End
+VIDEO CENTER OFF
+
+STEP 28
+Phase End
