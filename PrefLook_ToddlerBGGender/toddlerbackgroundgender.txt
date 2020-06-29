@@ -1,0 +1,57 @@
+SIDES ARE {CENTER}
+DISPLAYS ARE {CENTER}
+
+LET attentiongetter = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\baby.mp4"
+
+LET truck_ball_f_generic = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\truck_ball_f_generic.mp4"
+LET horse_bird_m_generic = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\horse_bird_m_generic.mp4"
+LET cat_dog_m_generic = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\cat_dog_m_generic.mp4"
+LET blocks_keys_f_generic = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\blocks_keys_f_generic.mp4"
+
+LET truck_ball_f_BALL = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\truck_ball_f_BALL.mp4"
+LET truck_ball_f_TRUCK = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\truck_ball_f_TRUCK.mp4"
+LET truck_ball_m_BALL = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\truck_ball_m_BALL.mp4"
+LET truck_ball_m_TRUCK = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\truck_ball_m_TRUCK.mp4"
+LET blocks_keys_f_BLOCKS = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\blocks_keys_f_BLOCKS.mp4"
+LET blocks_keys_f_KEYS = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\blocks_keys_f_KEYS.mp4"
+LET blocks_keys_m_BLOCKS = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\blocks_keys_m_BLOCKS.mp4"
+LET blocks_keys_m_KEYS = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\blocks_keys_m_KEYS.mp4"
+LET cat_dog_f_CAT = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\cat_dog_f_CAT.mp4"
+LET cat_dog_f_DOG = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\cat_dog_f_DOG.mp4"
+LET cat_dog_m_CAT = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\cat_dog_m_CAT.mp4"
+LET cat_dog_m_DOG = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\cat_dog_m_DOG.mp4"
+LET horse_bird_f_BIRD = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\horse_bird_f_BIRD.mp4"
+LET horse_bird_f_HORSE = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\horse_bird_f_HORSE.mp4"
+LET horse_bird_m_BIRD = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\horse_bird_m_BIRD.mp4"
+LET horse_bird_m_HORSE = "C:\Users\ldev\Desktop\ExampleProtocols\PrefLookExample_ToddlerBGGender\horse_bird_m_HORSE.mp4"
+
+LET trial_videos = {blocks_keys_m_KEYS, horse_bird_m_HORSE, cat_dog_f_CAT, horse_bird_m_BIRD, horse_bird_f_HORSE, truck_ball_m_TRUCK, blocks_keys_f_generic, cat_dog_f_DOG, blocks_keys_f_KEYS, blocks_keys_m_BLOCKS, truck_ball_m_BALL, truck_ball_f_generic, cat_dog_m_generic, cat_dog_m_CAT, truck_ball_f_TRUCK, horse_bird_f_BIRD, horse_bird_m_generic, truck_ball_f_BALL, blocks_keys_f_BLOCKS, cat_dog_m_DOG}
+
+STEP 1
+Phase Test Start
+
+STEP 2
+VIDEO CENTER attentiongetter LOOP
+UNTIL KEY C
+
+STEP 3
+VIDEO CENTER OFF
+
+STEP 4
+Trial Start
+
+STEP 5
+LET vid = (TAKE trial_videos RANDOM)
+VIDEO CENTER vid ONCE
+UNTIL FINISHED
+
+STEP 6
+Trial End
+VIDEO CENTER OFF
+
+STEP 7
+LOOP STEP 2
+UNTIL 19 TIMES
+
+STEP 8
+Phase End
