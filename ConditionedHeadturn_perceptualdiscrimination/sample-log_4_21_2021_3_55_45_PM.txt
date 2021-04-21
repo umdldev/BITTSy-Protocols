@@ -1,0 +1,1232 @@
+########################################################################################
+[04/21/2021 03:51:25.393]BITTSy version 1.5
+========================================================================================
+[04/21/2021 03:51:25.393]experiment information
+[04/21/2021 03:51:25.393]protocol_name C:\Users\emily\Desktop\BITTSy\ConditionedHeadturnExample\conditioned_headturn_perceptual_discrimination.txt
+[04/21/2021 03:51:25.393]subject_names Sample
+[04/21/2021 03:51:25.393]subject_dob n/a
+[04/21/2021 03:51:25.393]experimenter_name EAS
+[04/21/2021 03:51:25.393]test_date 4/21/2021 3:51:25 PM
+[04/21/2021 03:51:25.393]comments: 
+========================================================================================
+[04/21/2021 03:51:25.394]habituation
+[04/21/2021 03:51:25.394]complete_look 100
+[04/21/2021 03:51:25.394]complete_look_away 100
+[04/21/2021 03:51:25.394]windowsize 1
+[04/21/2021 03:51:25.394]window_overlap True
+[04/21/2021 03:51:25.394]criterion_reduction 0
+[04/21/2021 03:51:25.394]basis_chosen LONGEST
+[04/21/2021 03:51:25.394]window_type SLIDING
+[04/21/2021 03:51:25.394]basisminimumtime 0
+########################################################################################
+========================================================================================
+[04/21/2021 03:51:25.396]execution_begin 4/21/2021 3:51:25 PM
+[04/21/2021 03:51:25.397]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:51:25.400]phase Training started 0
+[04/21/2021 03:51:25.401]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:25.404]stimuli audio LOOP LEFT controlstim 7.9793
+[04/21/2021 03:51:32.451]Debug: C pressed
+[04/21/2021 03:51:32.563]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:51:32.563]habituation trial 1 started 7166.9421
+[04/21/2021 03:51:32.563]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:32.565]Group changetrial from group training
+[04/21/2021 03:51:32.565]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:32.565]Group changetrialstim from group changetrial
+[04/21/2021 03:51:32.565]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:32.565]Group changetrialside from group changetrial
+[04/21/2021 03:51:32.565]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:32.565]Tag changestim from group changetrialstim
+[04/21/2021 03:51:32.565]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:32.565]SDL Tag LEFT from group changetrialside
+[04/21/2021 03:51:32.565]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:32.570]stimuli audio off LEFT 7174.1661
+[04/21/2021 03:51:32.570]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:32.571]stimuli audio LOOP LEFT changestim 7175.1632
+[04/21/2021 03:51:32.711]Incrementing LookAway for changestim by 250 7314.7903
+[04/21/2021 03:51:32.965]Incrementing LookAway for changestim by 250 7569.1404
+[04/21/2021 03:51:33.218]Incrementing LookAway for changestim by 250 7822.4612
+[04/21/2021 03:51:33.472]Incrementing LookAway for changestim by 250 8075.9845
+[04/21/2021 03:51:33.572]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:51:33.573]current action side is reward_tr 7175.1632
+[04/21/2021 03:51:33.573]side is LEFT channel is 1
+[04/21/2021 03:51:33.578]side is LEFT 8182.623
+[04/21/2021 03:51:33.578]stimuli light on LEFT 8182.623
+[04/21/2021 03:51:33.725]Incrementing LookAway for LEFT by 250 8329.2334
+[04/21/2021 03:51:33.725]Incrementing LookAway for changestim by 250 8329.2334
+[04/21/2021 03:51:33.976]Incrementing LookAway for LEFT by 250 8580.5891
+[04/21/2021 03:51:33.976]Incrementing LookAway for changestim by 250 8580.5891
+[04/21/2021 03:51:34.027]Debug: L pressed
+[04/21/2021 03:51:34.027]Debug: look duration for previous key (Space), 0, was complete, will not be included in current look - look time is: 455
+[04/21/2021 03:51:38.578]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:51:38.579]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:51:38.579]Debug: look duration for previous key (C), 455, was complete, will not be included in current look - look time is: 4552
+[04/21/2021 03:51:38.580]look light LEFT no_tag duration 4552 13184.1558
+[04/21/2021 03:51:38.580]look audio LEFT changestim duration 4552 13184.1558
+[04/21/2021 03:51:38.842]habituation trial 1 ended_successfully 13445.7687
+[04/21/2021 03:51:38.847]current trial number is 1 8182.623
+[04/21/2021 03:51:38.847]habituation new_basis_window 4552 13450.7442
+[04/21/2021 03:51:38.847]habituation basis threshold 0
+[04/21/2021 03:51:38.847]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:51:38.847]current action side is reward_tr 13450.7442
+[04/21/2021 03:51:38.847]side is LEFT channel is 1
+[04/21/2021 03:51:38.853]side is LEFT 13455.9848
+[04/21/2021 03:51:38.853]stimuli light off LEFT 13455.9848
+[04/21/2021 03:51:38.853]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:38.856]stimuli audio off LEFT 13459.847
+[04/21/2021 03:51:38.856]Debug, Exp Worker: executing a LOOP action
+[04/21/2021 03:51:38.858]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:51:38.858]Debug, Exp Worker: executing a loop from step 1 to step 6
+[04/21/2021 03:51:38.858]Debug, Exp Worker: executing step 1 inside of a loop
+[04/21/2021 03:51:38.858]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:51:38.858]Debug, Exp Worker: attempted to start a new phase inside of an active phase
+[04/21/2021 03:51:38.858]Debug, Exp Worker: executing step 2 inside of a loop
+[04/21/2021 03:51:38.858]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:38.858]stimuli audio LOOP LEFT controlstim 13461.8438
+[04/21/2021 03:51:47.507]Debug: C pressed
+[04/21/2021 03:51:47.507]Debug: look duration for previous key (C), 4552, was complete, will not be included in current look - look time is: 8649
+[04/21/2021 03:51:47.603]Debug, Exp Worker: executing step 3 inside of a loop
+[04/21/2021 03:51:47.603]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:51:47.603]habituation trial 2 started 22207.6537
+[04/21/2021 03:51:47.603]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:47.603]Group changetrial from group training
+[04/21/2021 03:51:47.604]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:47.604]Group changetrialstim from group changetrial
+[04/21/2021 03:51:47.604]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:47.604]Group changetrialside from group changetrial
+[04/21/2021 03:51:47.604]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:47.604]Tag changestim from group changetrialstim
+[04/21/2021 03:51:47.604]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:51:47.604]SDL tag LEFT from group changetrialside
+[04/21/2021 03:51:47.604]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:47.609]stimuli audio off LEFT 22213.1451
+[04/21/2021 03:51:47.609]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:47.609]stimuli audio LOOP LEFT changestim 22213.1451
+[04/21/2021 03:51:47.759]Incrementing LookAway for changestim by 250 22362.9979
+[04/21/2021 03:51:48.010]Incrementing LookAway for changestim by 250 22614.3249
+[04/21/2021 03:51:48.263]Incrementing LookAway for changestim by 250 22867.6196
+[04/21/2021 03:51:48.516]Incrementing LookAway for changestim by 250 23120.1851
+[04/21/2021 03:51:48.610]Debug, Exp Worker: executing step 4 inside of a loop
+[04/21/2021 03:51:48.610]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:51:48.610]current action side is reward_tr 22213.1451
+[04/21/2021 03:51:48.610]side is LEFT channel is 1
+[04/21/2021 03:51:48.613]side is LEFT 23217.289
+[04/21/2021 03:51:48.613]stimuli light on LEFT 23217.289
+[04/21/2021 03:51:48.767]Incrementing LookAway for LEFT by 250 23371.0612
+[04/21/2021 03:51:48.767]Incrementing LookAway for changestim by 250 23371.0612
+[04/21/2021 03:51:49.020]Incrementing LookAway for LEFT by 250 23623.961
+[04/21/2021 03:51:49.020]Incrementing LookAway for changestim by 250 23623.961
+[04/21/2021 03:51:49.227]Debug: L pressed
+[04/21/2021 03:51:49.227]Debug: look duration for previous key (L), 8649, was complete, will not be included in current look - look time is: 617
+[04/21/2021 03:51:53.614]Debug, Exp Worker: executing step 5 inside of a loop
+[04/21/2021 03:51:53.614]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:51:53.614]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:51:53.614]Debug: look duration for previous key (C), 617, was complete, will not be included in current look - look time is: 4386
+[04/21/2021 03:51:53.614]look light LEFT no_tag duration 4386 28218.1751
+[04/21/2021 03:51:53.614]look audio LEFT changestim duration 4386 28218.1751
+[04/21/2021 03:51:53.871]habituation trial 2 ended_successfully 28474.9739
+[04/21/2021 03:51:53.871]current trial number is 2 23217.289
+[04/21/2021 03:51:53.871]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:51:53.871]current action side is reward_tr 23217.289
+[04/21/2021 03:51:53.871]side is LEFT channel is 1
+[04/21/2021 03:51:53.874]side is LEFT 28478.0127
+[04/21/2021 03:51:53.874]stimuli light off LEFT 28478.0127
+[04/21/2021 03:51:53.874]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:53.884]stimuli audio off LEFT 28487.7028
+[04/21/2021 03:51:53.884]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:51:53.884]Debug, Exp Worker: loop completed 1 times
+[04/21/2021 03:51:53.884]Debug, Exp Worker: executing step 1 inside of a loop
+[04/21/2021 03:51:53.884]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:51:53.884]Debug, Exp Worker: attempted to start a new phase inside of an active phase
+[04/21/2021 03:51:53.884]Debug, Exp Worker: executing step 2 inside of a loop
+[04/21/2021 03:51:53.884]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:51:53.884]stimuli audio LOOP LEFT controlstim 28487.7028
+[04/21/2021 03:52:08.251]Debug: C pressed
+[04/21/2021 03:52:08.251]Debug: look duration for previous key (C), 4386, was complete, will not be included in current look - look time is: 14367
+[04/21/2021 03:52:08.355]Debug, Exp Worker: executing step 3 inside of a loop
+[04/21/2021 03:52:08.355]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:52:08.355]habituation trial 3 started 42959.1974
+[04/21/2021 03:52:08.355]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:08.355]Group changetrial from group training
+[04/21/2021 03:52:08.356]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:08.356]Group changetrialstim from group changetrial
+[04/21/2021 03:52:08.356]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:08.356]Group changetrialside from group changetrial
+[04/21/2021 03:52:08.356]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:08.356]Tag changestim from group changetrialstim
+[04/21/2021 03:52:08.356]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:08.356]SDL tag LEFT from group changetrialside
+[04/21/2021 03:52:08.356]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:08.359]stimuli audio off LEFT 42962.9992
+[04/21/2021 03:52:08.359]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:08.359]stimuli audio LOOP LEFT changestim 42962.9992
+[04/21/2021 03:52:08.505]Incrementing LookAway for changestim by 250 43109.6355
+[04/21/2021 03:52:08.771]Incrementing LookAway for changestim by 250 43374.9277
+[04/21/2021 03:52:09.022]Incrementing LookAway for changestim by 250 43626.3289
+[04/21/2021 03:52:09.277]Incrementing LookAway for changestim by 250 43881.2145
+[04/21/2021 03:52:09.361]Debug, Exp Worker: executing step 4 inside of a loop
+[04/21/2021 03:52:09.361]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:09.361]current action side is reward_tr 42962.9992
+[04/21/2021 03:52:09.361]side is LEFT channel is 1
+[04/21/2021 03:52:09.366]side is LEFT 43969.7322
+[04/21/2021 03:52:09.366]stimuli light on LEFT 43969.7322
+[04/21/2021 03:52:09.527]Incrementing LookAway for LEFT by 250 44131.4051
+[04/21/2021 03:52:09.527]Incrementing LookAway for changestim by 250 44131.4051
+[04/21/2021 03:52:09.779]Incrementing LookAway for LEFT by 250 44383.4009
+[04/21/2021 03:52:09.779]Incrementing LookAway for changestim by 250 44383.4009
+[04/21/2021 03:52:10.033]Incrementing LookAway for LEFT by 250 44637.4925
+[04/21/2021 03:52:10.033]Incrementing LookAway for changestim by 250 44637.4925
+[04/21/2021 03:52:10.203]Debug: L pressed
+[04/21/2021 03:52:10.203]Debug: look duration for previous key (L), 14367, was complete, will not be included in current look - look time is: 842
+[04/21/2021 03:52:14.365]Debug, Exp Worker: executing step 5 inside of a loop
+[04/21/2021 03:52:14.365]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:52:14.365]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:52:14.365]Debug: look duration for previous key (C), 842, was complete, will not be included in current look - look time is: 4162
+[04/21/2021 03:52:14.365]look light LEFT no_tag duration 4162 48969.3004
+[04/21/2021 03:52:14.365]look audio LEFT changestim duration 4162 48969.3004
+[04/21/2021 03:52:14.617]habituation trial 3 ended_successfully 49221.3441
+[04/21/2021 03:52:14.617]current trial number is 3 43969.7322
+[04/21/2021 03:52:14.617]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:14.617]current action side is reward_tr 43969.7322
+[04/21/2021 03:52:14.617]side is LEFT channel is 1
+[04/21/2021 03:52:14.622]side is LEFT 49226.0902
+[04/21/2021 03:52:14.622]stimuli light off LEFT 49226.0902
+[04/21/2021 03:52:14.622]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:14.630]stimuli audio off LEFT 49234.3532
+[04/21/2021 03:52:14.630]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:52:14.630]Debug, Exp Worker: loop completed 2 times
+[04/21/2021 03:52:14.630]Debug, Exp Worker: executing step 1 inside of a loop
+[04/21/2021 03:52:14.630]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:52:14.630]Debug, Exp Worker: attempted to start a new phase inside of an active phase
+[04/21/2021 03:52:14.630]Debug, Exp Worker: executing step 2 inside of a loop
+[04/21/2021 03:52:14.630]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:14.630]stimuli audio LOOP LEFT controlstim 49234.3532
+[04/21/2021 03:52:22.283]Debug: C pressed
+[04/21/2021 03:52:22.283]Debug: look duration for previous key (C), 4162, was complete, will not be included in current look - look time is: 7652
+[04/21/2021 03:52:22.387]Debug, Exp Worker: executing step 3 inside of a loop
+[04/21/2021 03:52:22.387]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:52:22.387]habituation trial 4 started 56990.7315
+[04/21/2021 03:52:22.387]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:22.388]Group changetrial from group training
+[04/21/2021 03:52:22.388]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:22.388]Group changetrialstim from group changetrial
+[04/21/2021 03:52:22.388]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:22.388]Group changetrialside from group changetrial
+[04/21/2021 03:52:22.388]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:22.388]Tag changestim from group changetrialstim
+[04/21/2021 03:52:22.388]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:22.388]SDL tag LEFT from group changetrialside
+[04/21/2021 03:52:22.388]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:22.392]stimuli audio off LEFT 56996.5547
+[04/21/2021 03:52:22.392]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:22.392]stimuli audio LOOP LEFT changestim 56996.5547
+[04/21/2021 03:52:22.542]Incrementing LookAway for changestim by 250 57146.2017
+[04/21/2021 03:52:22.797]Incrementing LookAway for changestim by 250 57401.1131
+[04/21/2021 03:52:23.050]Incrementing LookAway for changestim by 250 57654.3931
+[04/21/2021 03:52:23.306]Incrementing LookAway for changestim by 250 57909.83
+[04/21/2021 03:52:23.393]Debug, Exp Worker: executing step 4 inside of a loop
+[04/21/2021 03:52:23.393]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:23.393]current action side is reward_tr 56996.5547
+[04/21/2021 03:52:23.393]side is LEFT channel is 1
+[04/21/2021 03:52:23.399]side is LEFT 58002.9551
+[04/21/2021 03:52:23.399]stimuli light on LEFT 58002.9551
+[04/21/2021 03:52:23.558]Incrementing LookAway for LEFT by 250 58162.5297
+[04/21/2021 03:52:23.558]Incrementing LookAway for changestim by 250 58162.5297
+[04/21/2021 03:52:23.809]Incrementing LookAway for LEFT by 250 58413.1838
+[04/21/2021 03:52:23.809]Incrementing LookAway for changestim by 250 58413.1838
+[04/21/2021 03:52:24.062]Incrementing LookAway for LEFT by 250 58666.24
+[04/21/2021 03:52:24.062]Incrementing LookAway for changestim by 250 58666.24
+[04/21/2021 03:52:24.139]Debug: L pressed
+[04/21/2021 03:52:24.139]Debug: look duration for previous key (L), 7652, was complete, will not be included in current look - look time is: 745
+[04/21/2021 03:52:28.398]Debug, Exp Worker: executing step 5 inside of a loop
+[04/21/2021 03:52:28.398]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:52:28.399]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:52:28.399]Debug: look duration for previous key (C), 745, was complete, will not be included in current look - look time is: 4259
+[04/21/2021 03:52:28.399]look light LEFT no_tag duration 4259 63003.102
+[04/21/2021 03:52:28.399]look audio LEFT changestim duration 4259 63003.102
+[04/21/2021 03:52:28.657]habituation trial 4 ended_successfully 63261.5401
+[04/21/2021 03:52:28.657]current trial number is 4 58002.9551
+[04/21/2021 03:52:28.657]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:28.657]current action side is reward_tr 58002.9551
+[04/21/2021 03:52:28.657]side is LEFT channel is 1
+[04/21/2021 03:52:28.661]side is LEFT 63265.0931
+[04/21/2021 03:52:28.661]stimuli light off LEFT 63265.0931
+[04/21/2021 03:52:28.661]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:28.670]stimuli audio off LEFT 63274.173
+[04/21/2021 03:52:28.670]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:52:28.670]Debug, Exp Worker: loop completed 3 times
+[04/21/2021 03:52:28.670]Debug, Exp Worker: executing step 1 inside of a loop
+[04/21/2021 03:52:28.670]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:52:28.670]Debug, Exp Worker: attempted to start a new phase inside of an active phase
+[04/21/2021 03:52:28.670]Debug, Exp Worker: executing step 2 inside of a loop
+[04/21/2021 03:52:28.670]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:28.670]stimuli audio LOOP LEFT controlstim 63274.173
+[04/21/2021 03:52:37.611]Debug: C pressed
+[04/21/2021 03:52:37.611]Debug: look duration for previous key (C), 4259, was complete, will not be included in current look - look time is: 8940
+[04/21/2021 03:52:37.722]Debug, Exp Worker: executing step 3 inside of a loop
+[04/21/2021 03:52:37.722]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:52:37.722]habituation trial 5 started 72326.3328
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:37.723]Group changetrial from group training
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:37.723]Group changetrialstim from group changetrial
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:37.723]Group changetrialside from group changetrial
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:37.723]Tag changestim from group changetrialstim
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:37.723]SDL tag LEFT from group changetrialside
+[04/21/2021 03:52:37.723]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:37.727]stimuli audio off LEFT 72331.2805
+[04/21/2021 03:52:37.727]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:37.727]stimuli audio LOOP LEFT changestim 72331.2805
+[04/21/2021 03:52:37.872]Incrementing LookAway for changestim by 250 72476.4004
+[04/21/2021 03:52:38.124]Incrementing LookAway for changestim by 250 72727.7591
+[04/21/2021 03:52:38.389]Incrementing LookAway for changestim by 250 72993.0474
+[04/21/2021 03:52:38.642]Incrementing LookAway for changestim by 250 73246.3704
+[04/21/2021 03:52:38.728]Debug, Exp Worker: executing step 4 inside of a loop
+[04/21/2021 03:52:38.728]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:38.728]current action side is reward_tr 72331.2805
+[04/21/2021 03:52:38.728]side is LEFT channel is 1
+[04/21/2021 03:52:38.733]side is LEFT 73337.3405
+[04/21/2021 03:52:38.733]stimuli light on LEFT 73337.3405
+[04/21/2021 03:52:38.908]Incrementing LookAway for LEFT by 250 73511.8288
+[04/21/2021 03:52:38.908]Incrementing LookAway for changestim by 250 73511.8288
+[04/21/2021 03:52:39.161]Incrementing LookAway for LEFT by 250 73765.2279
+[04/21/2021 03:52:39.161]Incrementing LookAway for changestim by 250 73765.2279
+[04/21/2021 03:52:39.415]Incrementing LookAway for LEFT by 250 74019.4822
+[04/21/2021 03:52:39.415]Incrementing LookAway for changestim by 250 74019.4822
+[04/21/2021 03:52:39.635]Debug: L pressed
+[04/21/2021 03:52:39.635]Debug: look duration for previous key (L), 8940, was complete, will not be included in current look - look time is: 907
+[04/21/2021 03:52:43.733]Debug, Exp Worker: executing step 5 inside of a loop
+[04/21/2021 03:52:43.733]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:52:43.734]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:52:43.734]Debug: look duration for previous key (C), 907, was complete, will not be included in current look - look time is: 4098
+[04/21/2021 03:52:43.734]look light LEFT no_tag duration 4098 78337.8788
+[04/21/2021 03:52:43.734]look audio LEFT changestim duration 4098 78337.8788
+[04/21/2021 03:52:43.985]habituation trial 5 ended_successfully 78588.9975
+[04/21/2021 03:52:43.985]current trial number is 5 73337.3405
+[04/21/2021 03:52:43.985]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:52:43.985]current action side is reward_tr 73337.3405
+[04/21/2021 03:52:43.985]side is LEFT channel is 1
+[04/21/2021 03:52:43.989]side is LEFT 78592.6944
+[04/21/2021 03:52:43.989]stimuli light off LEFT 78592.6944
+[04/21/2021 03:52:43.989]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:44.000]stimuli audio off LEFT 78604.3804
+[04/21/2021 03:52:44.000]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:52:44.000]Debug, Exp Worker: terminating condition satisfied
+[04/21/2021 03:52:44.000]Debug, Exp Worker: loop completed 4 times
+[04/21/2021 03:52:44.000]Debug, Exp Worker: loop terminating condition evaluation returning true
+[04/21/2021 03:52:44.000]Debug, Exp Worker: executing a PHASE_E action
+[04/21/2021 03:52:44.002]phase Training ended 78606.3761
+[04/21/2021 03:52:44.002]Debug, Exp Worker: executing a PHASE_S action
+[04/21/2021 03:52:44.004]phase Test started 78606.3761
+[04/21/2021 03:52:44.004]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:44.004]stimuli audio LOOP LEFT controlstim 78608.6372
+[04/21/2021 03:52:54.755]Debug: C pressed
+[04/21/2021 03:52:54.755]Debug: look duration for previous key (C), 4098, was complete, will not be included in current look - look time is: 10750
+[04/21/2021 03:52:54.851]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:52:54.851]habituation trial 1 started 89455.2586
+[04/21/2021 03:52:54.851]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:52:54.852]Group controltrial taken from group test
+[04/21/2021 03:52:54.852]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:54.852]Group controltrialstim from group controltrial
+[04/21/2021 03:52:54.852]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:54.852]Group controltrialside from group controltrial
+[04/21/2021 03:52:54.852]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:54.852]Tag controlstim from group controltrialstim
+[04/21/2021 03:52:54.852]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:52:54.852]SDL Tag RIGHT from group controltrialside
+[04/21/2021 03:52:54.852]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:54.859]stimuli audio off LEFT 89462.9654
+[04/21/2021 03:52:54.859]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:54.859]stimuli audio LOOP LEFT controlstim 89462.9654
+[04/21/2021 03:52:55.008]Incrementing LookAway for controlstim by 250 89612.5642
+[04/21/2021 03:52:55.262]Incrementing LookAway for controlstim by 250 89865.9126
+[04/21/2021 03:52:55.513]Incrementing LookAway for controlstim by 250 90117.2436
+[04/21/2021 03:52:55.778]Incrementing LookAway for controlstim by 250 90382.5343
+[04/21/2021 03:52:56.032]Incrementing LookAway for controlstim by 250 90635.8576
+[04/21/2021 03:52:56.285]Incrementing LookAway for controlstim by 250 90889.1516
+[04/21/2021 03:52:56.540]Incrementing LookAway for controlstim by 250 91144.4692
+[04/21/2021 03:52:56.796]Incrementing LookAway for controlstim by 250 91399.8174
+[04/21/2021 03:52:57.049]Incrementing LookAway for controlstim by 250 91653.1403
+[04/21/2021 03:52:57.304]Incrementing LookAway for controlstim by 250 91908.455
+[04/21/2021 03:52:57.560]Incrementing LookAway for controlstim by 250 92163.7735
+[04/21/2021 03:52:57.811]Incrementing LookAway for controlstim by 250 92415.0722
+[04/21/2021 03:52:58.064]Incrementing LookAway for controlstim by 250 92668.2432
+[04/21/2021 03:52:58.319]Incrementing LookAway for controlstim by 250 92923.1268
+[04/21/2021 03:52:58.574]Incrementing LookAway for controlstim by 250 93177.9662
+[04/21/2021 03:52:58.829]Incrementing LookAway for controlstim by 250 93433.2837
+[04/21/2021 03:52:59.083]Incrementing LookAway for controlstim by 250 93686.7798
+[04/21/2021 03:52:59.336]Incrementing LookAway for controlstim by 250 93940.1335
+[04/21/2021 03:52:59.360]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:52:59.360]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:52:59.360]Debug: look duration for previous key (L), 10750, was complete, will not be included in current look - look time is: 4501
+[04/21/2021 03:52:59.620]habituation trial 1 ended_successfully 94224.5289
+[04/21/2021 03:52:59.620]current trial number is 6 89462.9654
+[04/21/2021 03:52:59.620]Incrementing LookAway for controlstim by 250 94224.5289
+[04/21/2021 03:52:59.620]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:59.624]stimuli audio off LEFT 94228.5178
+[04/21/2021 03:52:59.825]Debug, Exp Worker: executing a LOOP action
+[04/21/2021 03:52:59.825]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:52:59.825]Debug, Exp Worker: executing a loop from step 9 to step 15
+[04/21/2021 03:52:59.825]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:52:59.825]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:52:59.825]stimuli audio LOOP LEFT controlstim 94428.9955
+[04/21/2021 03:52:59.872]Incrementing LookAway for controlstim by 250 94475.8744
+[04/21/2021 03:53:00.137]Incrementing LookAway for controlstim by 250 94740.7279
+[04/21/2021 03:53:00.398]Incrementing LookAway for controlstim by 250 95002.0579
+[04/21/2021 03:53:00.649]Incrementing LookAway for controlstim by 250 95252.9562
+[04/21/2021 03:53:00.900]Incrementing LookAway for controlstim by 250 95504.2868
+[04/21/2021 03:53:01.151]Incrementing LookAway for controlstim by 250 95755.1866
+[04/21/2021 03:53:01.405]Incrementing LookAway for controlstim by 250 96009.2391
+[04/21/2021 03:53:01.657]Incrementing LookAway for controlstim by 250 96261.1507
+[04/21/2021 03:53:01.911]Incrementing LookAway for controlstim by 250 96515.4394
+[04/21/2021 03:53:02.162]Incrementing LookAway for controlstim by 250 96765.7704
+[04/21/2021 03:53:02.416]Incrementing LookAway for controlstim by 250 97020.1511
+[04/21/2021 03:53:02.671]Incrementing LookAway for controlstim by 250 97275.1429
+[04/21/2021 03:53:02.924]Incrementing LookAway for controlstim by 250 97528.1688
+[04/21/2021 03:53:03.179]Incrementing LookAway for controlstim by 250 97783.2799
+[04/21/2021 03:53:03.432]Incrementing LookAway for controlstim by 250 98035.7662
+[04/21/2021 03:53:03.685]Incrementing LookAway for controlstim by 250 98289.2018
+[04/21/2021 03:53:03.936]Incrementing LookAway for controlstim by 250 98540.2988
+[04/21/2021 03:53:04.187]Incrementing LookAway for controlstim by 250 98791.3904
+[04/21/2021 03:53:04.441]Incrementing LookAway for controlstim by 250 99044.9
+[04/21/2021 03:53:04.694]Incrementing LookAway for controlstim by 250 99297.7612
+[04/21/2021 03:53:04.957]Incrementing LookAway for controlstim by 250 99561.0289
+[04/21/2021 03:53:05.210]Incrementing LookAway for controlstim by 250 99814.2097
+[04/21/2021 03:53:05.463]Incrementing LookAway for controlstim by 250 100067.5766
+[04/21/2021 03:53:05.717]Incrementing LookAway for controlstim by 250 100320.9967
+[04/21/2021 03:53:05.968]Incrementing LookAway for controlstim by 250 100572.1303
+[04/21/2021 03:53:06.219]Incrementing LookAway for controlstim by 250 100823.3216
+[04/21/2021 03:53:06.474]Incrementing LookAway for controlstim by 250 101077.6884
+[04/21/2021 03:53:06.727]Incrementing LookAway for controlstim by 250 101331.1399
+[04/21/2021 03:53:06.978]Incrementing LookAway for controlstim by 250 101582.4983
+[04/21/2021 03:53:07.043]Debug: C pressed
+[04/21/2021 03:53:07.043]Debug: look duration for previous key (L), 4501, was complete, will not be included in current look - look time is: 7218
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:53:07.171]habituation trial 2 started 101775.1122
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:53:07.171]Group changetrial taken from group test
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:07.171]Group changetrialstim from group changetrial
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:07.171]Group changetrialside from group changetrial
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:07.171]Tag changestim from group changetrialstim
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:07.171]SDL tag LEFT from group changetrialside
+[04/21/2021 03:53:07.171]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:07.175]stimuli audio off LEFT 101779.2353
+[04/21/2021 03:53:07.175]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:07.175]stimuli audio LOOP LEFT changestim 101779.2353
+[04/21/2021 03:53:07.308]Incrementing LookAway for changestim by 250 101911.9082
+[04/21/2021 03:53:07.561]Incrementing LookAway for changestim by 250 102164.9252
+[04/21/2021 03:53:07.811]Incrementing LookAway for changestim by 250 102415.2555
+[04/21/2021 03:53:08.061]Incrementing LookAway for changestim by 250 102665.5857
+[04/21/2021 03:53:08.313]Incrementing LookAway for changestim by 250 102916.9139
+[04/21/2021 03:53:08.491]Debug: L pressed
+[04/21/2021 03:53:08.491]Debug: look duration for previous key (C), 7218, was complete, will not be included in current look - look time is: 1315
+[04/21/2021 03:53:08.627]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:53:08.627]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:08.627]current action side is reward_test5 101779.2353
+[04/21/2021 03:53:08.627]side is LEFT channel is 1
+[04/21/2021 03:53:08.630]side is LEFT 103234.6227
+[04/21/2021 03:53:08.630]stimuli light on LEFT 103234.6227
+[04/21/2021 03:53:11.631]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:53:11.631]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:53:11.631]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:53:11.631]Debug: look duration for previous key (C), 1315, was complete, will not be included in current look - look time is: 3003
+[04/21/2021 03:53:11.631]look light LEFT no_tag duration 3003 106234.7404
+[04/21/2021 03:53:11.631]look audio LEFT changestim duration 3003 106234.7404
+[04/21/2021 03:53:11.886]habituation trial 2 ended_successfully 106490.4173
+[04/21/2021 03:53:11.886]current trial number is 7 103234.6227
+[04/21/2021 03:53:11.886]habituation new_basis_window 3003 106490.4173
+[04/21/2021 03:53:11.886]habituation basis threshold 0
+[04/21/2021 03:53:11.886]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:11.886]current action side is reward_test5 106490.4173
+[04/21/2021 03:53:11.886]side is LEFT channel is 1
+[04/21/2021 03:53:11.891]side is LEFT 106495.4331
+[04/21/2021 03:53:11.891]stimuli light off LEFT 106495.4331
+[04/21/2021 03:53:11.891]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:11.901]stimuli audio off LEFT 106505.197
+[04/21/2021 03:53:12.001]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:53:12.101]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:53:12.101]Debug, Exp Worker: loop completed 1 times
+[04/21/2021 03:53:12.101]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:53:12.101]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:12.101]stimuli audio LOOP LEFT controlstim 106705.1727
+[04/21/2021 03:53:24.627]Debug: C pressed
+[04/21/2021 03:53:24.627]Debug: look duration for previous key (C), 3003, was complete, will not be included in current look - look time is: 12525
+[04/21/2021 03:53:24.738]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:53:24.738]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:53:24.738]habituation trial 3 started 119342.4866
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:53:24.739]Group changetrial taken from group test
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:24.739]Group changetrialstim from group changetrial
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:24.739]Group changetrialside from group changetrial
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:24.739]Tag changestim from group changetrialstim
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:24.739]SDL tag LEFT from group changetrialside
+[04/21/2021 03:53:24.739]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:24.743]stimuli audio off LEFT 119347.3553
+[04/21/2021 03:53:24.743]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:24.743]stimuli audio LOOP LEFT changestim 119347.3553
+[04/21/2021 03:53:24.892]Incrementing LookAway for changestim by 250 119495.9858
+[04/21/2021 03:53:25.147]Incrementing LookAway for changestim by 250 119750.8378
+[04/21/2021 03:53:25.398]Incrementing LookAway for changestim by 250 120002.167
+[04/21/2021 03:53:25.653]Incrementing LookAway for changestim by 250 120257.484
+[04/21/2021 03:53:25.907]Incrementing LookAway for changestim by 250 120510.8069
+[04/21/2021 03:53:26.172]Incrementing LookAway for changestim by 250 120776.0698
+[04/21/2021 03:53:26.424]Incrementing LookAway for changestim by 250 121028.2669
+[04/21/2021 03:53:26.595]Debug: L pressed
+[04/21/2021 03:53:26.595]Debug: look duration for previous key (L), 12525, was complete, will not be included in current look - look time is: 1851
+[04/21/2021 03:53:26.707]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:53:26.707]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:26.707]current action side is reward_test5 119347.3553
+[04/21/2021 03:53:26.707]side is LEFT channel is 1
+[04/21/2021 03:53:26.711]side is LEFT 121315.5113
+[04/21/2021 03:53:26.711]stimuli light on LEFT 121315.5113
+[04/21/2021 03:53:29.711]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:53:29.711]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:53:29.711]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:53:29.711]Debug: look duration for previous key (C), 1851, was complete, will not be included in current look - look time is: 3004
+[04/21/2021 03:53:29.711]look light LEFT no_tag duration 3004 124315.4125
+[04/21/2021 03:53:29.711]look audio LEFT changestim duration 3004 124315.4125
+[04/21/2021 03:53:29.977]habituation trial 3 ended_successfully 124581.469
+[04/21/2021 03:53:29.977]current trial number is 8 121315.5113
+[04/21/2021 03:53:29.977]habituation new_basis_window 3004 124581.469
+[04/21/2021 03:53:29.977]habituation basis threshold 0
+[04/21/2021 03:53:29.977]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:29.977]current action side is reward_test5 124581.469
+[04/21/2021 03:53:29.977]side is LEFT channel is 1
+[04/21/2021 03:53:29.982]side is LEFT 124586.1256
+[04/21/2021 03:53:29.982]stimuli light off LEFT 124586.1256
+[04/21/2021 03:53:29.982]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:29.992]stimuli audio off LEFT 124595.8661
+[04/21/2021 03:53:30.092]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:53:30.192]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:53:30.192]Debug, Exp Worker: loop completed 2 times
+[04/21/2021 03:53:30.192]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:53:30.192]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:30.192]stimuli audio LOOP LEFT controlstim 124795.7205
+[04/21/2021 03:53:37.091]Debug: C pressed
+[04/21/2021 03:53:37.091]Debug: look duration for previous key (C), 3004, was complete, will not be included in current look - look time is: 6899
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:53:37.235]habituation trial 4 started 131839.1284
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:53:37.235]Group controltrial taken from group test
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:37.235]Group controltrialstim from group controltrial
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:37.235]Group controltrialside from group controltrial
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:37.235]Tag controlstim from group controltrialstim
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:37.235]SDL tag RIGHT from group controltrialside
+[04/21/2021 03:53:37.235]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:37.240]stimuli audio off LEFT 131844.0171
+[04/21/2021 03:53:37.240]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:37.240]stimuli audio LOOP LEFT controlstim 131844.0171
+[04/21/2021 03:53:37.351]Incrementing LookAway for controlstim by 250 131954.9726
+[04/21/2021 03:53:37.605]Incrementing LookAway for controlstim by 250 132209.4405
+[04/21/2021 03:53:37.870]Incrementing LookAway for controlstim by 250 132474.2519
+[04/21/2021 03:53:38.120]Incrementing LookAway for controlstim by 250 132724.5827
+[04/21/2021 03:53:38.372]Incrementing LookAway for controlstim by 250 132975.9108
+[04/21/2021 03:53:38.627]Incrementing LookAway for controlstim by 250 133231.2284
+[04/21/2021 03:53:38.878]Incrementing LookAway for controlstim by 250 133482.5848
+[04/21/2021 03:53:39.134]Incrementing LookAway for controlstim by 250 133737.8739
+[04/21/2021 03:53:39.387]Incrementing LookAway for controlstim by 250 133991.1966
+[04/21/2021 03:53:39.642]Incrementing LookAway for controlstim by 250 134246.5429
+[04/21/2021 03:53:39.896]Incrementing LookAway for controlstim by 250 134500.144
+[04/21/2021 03:53:40.148]Incrementing LookAway for controlstim by 250 134752.1396
+[04/21/2021 03:53:40.400]Incrementing LookAway for controlstim by 250 135003.7647
+[04/21/2021 03:53:40.653]Incrementing LookAway for controlstim by 250 135256.6759
+[04/21/2021 03:53:40.906]Incrementing LookAway for controlstim by 250 135510.1931
+[04/21/2021 03:53:41.161]Incrementing LookAway for controlstim by 250 135765.1829
+[04/21/2021 03:53:41.415]Incrementing LookAway for controlstim by 250 136019.5166
+[04/21/2021 03:53:41.668]Incrementing LookAway for controlstim by 250 136272.1891
+[04/21/2021 03:53:41.741]Debug, Exp Worker: executing step 13 inside of a loop
+[04/21/2021 03:53:41.741]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:53:41.741]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:53:41.741]Debug: look duration for previous key (L), 6899, was complete, will not be included in current look - look time is: 4501
+[04/21/2021 03:53:41.994]habituation trial 4 ended_successfully 136598.52
+[04/21/2021 03:53:41.994]current trial number is 9 131844.0171
+[04/21/2021 03:53:41.994]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:41.994]Incrementing LookAway for controlstim by 250 136598.52
+[04/21/2021 03:53:42.004]stimuli audio off LEFT 136608.3836
+[04/21/2021 03:53:42.104]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:53:42.204]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:53:42.204]Debug, Exp Worker: loop completed 3 times
+[04/21/2021 03:53:42.204]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:53:42.204]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:42.204]stimuli audio LOOP LEFT controlstim 136808.3527
+[04/21/2021 03:53:42.249]Incrementing LookAway for controlstim by 250 136852.9218
+[04/21/2021 03:53:42.514]Incrementing LookAway for controlstim by 250 137118.2463
+[04/21/2021 03:53:42.779]Incrementing LookAway for controlstim by 250 137383.0769
+[04/21/2021 03:53:43.044]Incrementing LookAway for controlstim by 250 137647.9102
+[04/21/2021 03:53:43.294]Incrementing LookAway for controlstim by 250 137898.2408
+[04/21/2021 03:53:43.549]Incrementing LookAway for controlstim by 250 138153.5888
+[04/21/2021 03:53:43.805]Incrementing LookAway for controlstim by 250 138408.8761
+[04/21/2021 03:53:44.060]Incrementing LookAway for controlstim by 250 138664.1931
+[04/21/2021 03:53:44.311]Incrementing LookAway for controlstim by 250 138915.5212
+[04/21/2021 03:53:44.565]Incrementing LookAway for controlstim by 250 139168.8442
+[04/21/2021 03:53:44.820]Incrementing LookAway for controlstim by 250 139424.1908
+[04/21/2021 03:53:45.075]Incrementing LookAway for controlstim by 250 139679.4791
+[04/21/2021 03:53:45.331]Incrementing LookAway for controlstim by 250 139934.7965
+[04/21/2021 03:53:45.584]Incrementing LookAway for controlstim by 250 140188.1198
+[04/21/2021 03:53:45.837]Incrementing LookAway for controlstim by 250 140441.4421
+[04/21/2021 03:53:46.089]Incrementing LookAway for controlstim by 250 140692.7702
+[04/21/2021 03:53:46.342]Incrementing LookAway for controlstim by 250 140946.544
+[04/21/2021 03:53:46.597]Incrementing LookAway for controlstim by 250 141201.3813
+[04/21/2021 03:53:46.850]Incrementing LookAway for controlstim by 250 141454.1936
+[04/21/2021 03:53:47.103]Incrementing LookAway for controlstim by 250 141707.2716
+[04/21/2021 03:53:47.356]Incrementing LookAway for controlstim by 250 141960.1861
+[04/21/2021 03:53:47.612]Incrementing LookAway for controlstim by 250 142216.2053
+[04/21/2021 03:53:47.868]Incrementing LookAway for controlstim by 250 142472.3327
+[04/21/2021 03:53:48.122]Incrementing LookAway for controlstim by 250 142726.4563
+[04/21/2021 03:53:48.378]Incrementing LookAway for controlstim by 250 142982.2883
+[04/21/2021 03:53:48.632]Incrementing LookAway for controlstim by 250 143235.7156
+[04/21/2021 03:53:48.886]Incrementing LookAway for controlstim by 250 143490.1941
+[04/21/2021 03:53:49.138]Incrementing LookAway for controlstim by 250 143742.0113
+[04/21/2021 03:53:49.267]Debug: C pressed
+[04/21/2021 03:53:49.267]Debug: look duration for previous key (L), 4501, was complete, will not be included in current look - look time is: 7062
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:53:49.371]habituation trial 5 started 143975.0487
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:53:49.371]Group changetrial taken from group test
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:49.371]Group changetrialstim from group changetrial
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:49.371]Group changetrialside from group changetrial
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:49.371]Tag changestim from group changetrialstim
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:53:49.371]SDL tag LEFT from group changetrialside
+[04/21/2021 03:53:49.371]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:49.377]stimuli audio off LEFT 143980.6881
+[04/21/2021 03:53:49.377]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:49.377]stimuli audio LOOP LEFT changestim 143980.6881
+[04/21/2021 03:53:49.517]Incrementing LookAway for changestim by 250 144121.3727
+[04/21/2021 03:53:49.768]Incrementing LookAway for changestim by 250 144371.7488
+[04/21/2021 03:53:50.032]Incrementing LookAway for changestim by 250 144636.0534
+[04/21/2021 03:53:50.295]Incrementing LookAway for changestim by 250 144899.3506
+[04/21/2021 03:53:50.548]Incrementing LookAway for changestim by 250 145151.7045
+[04/21/2021 03:53:50.802]Incrementing LookAway for changestim by 250 145406.5956
+[04/21/2021 03:53:51.058]Incrementing LookAway for changestim by 250 145662.2846
+[04/21/2021 03:53:51.155]Debug: L pressed
+[04/21/2021 03:53:51.155]Debug: look duration for previous key (C), 7062, was complete, will not be included in current look - look time is: 1777
+[04/21/2021 03:53:51.314]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:53:51.314]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:51.315]current action side is reward_test5 143980.6881
+[04/21/2021 03:53:51.315]side is LEFT channel is 1
+[04/21/2021 03:53:51.320]side is LEFT 145924.1031
+[04/21/2021 03:53:51.320]stimuli light on LEFT 145924.1031
+[04/21/2021 03:53:54.320]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:53:54.320]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:53:54.320]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:53:54.320]Debug: look duration for previous key (C), 1777, was complete, will not be included in current look - look time is: 3005
+[04/21/2021 03:53:54.320]look light LEFT no_tag duration 3005 148924.2108
+[04/21/2021 03:53:54.320]look audio LEFT changestim duration 3005 148924.2108
+[04/21/2021 03:53:54.578]habituation trial 5 ended_successfully 149181.6787
+[04/21/2021 03:53:54.578]current trial number is 10 145924.1031
+[04/21/2021 03:53:54.578]habituation new_basis_window 3005 149181.6787
+[04/21/2021 03:53:54.578]habituation basis threshold 0
+[04/21/2021 03:53:54.578]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:53:54.578]current action side is reward_test5 149181.6787
+[04/21/2021 03:53:54.578]side is LEFT channel is 1
+[04/21/2021 03:53:54.582]side is LEFT 149185.8384
+[04/21/2021 03:53:54.582]stimuli light off LEFT 149185.8384
+[04/21/2021 03:53:54.583]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:54.591]stimuli audio off LEFT 149195.2536
+[04/21/2021 03:53:54.692]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:53:54.791]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:53:54.791]Debug, Exp Worker: loop completed 4 times
+[04/21/2021 03:53:54.791]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:53:54.791]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:53:54.792]stimuli audio LOOP LEFT controlstim 149395.1563
+[04/21/2021 03:54:01.739]Debug: C pressed
+[04/21/2021 03:54:01.739]Debug: look duration for previous key (C), 3005, was complete, will not be included in current look - look time is: 6947
+[04/21/2021 03:54:01.859]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:54:01.859]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:54:01.859]habituation trial 6 started 156463.3115
+[04/21/2021 03:54:01.859]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:54:01.859]Group changetrial taken from group test
+[04/21/2021 03:54:01.859]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:01.860]Group changetrialstim from group changetrial
+[04/21/2021 03:54:01.860]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:01.860]Group changetrialside from group changetrial
+[04/21/2021 03:54:01.860]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:01.860]Tag changestim from group changetrialstim
+[04/21/2021 03:54:01.860]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:01.860]SDL tag LEFT from group changetrialside
+[04/21/2021 03:54:01.860]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:01.865]stimuli audio off LEFT 156468.3095
+[04/21/2021 03:54:01.865]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:01.865]stimuli audio LOOP LEFT changestim 156469.3099
+[04/21/2021 03:54:02.005]Incrementing LookAway for changestim by 250 156608.9672
+[04/21/2021 03:54:02.259]Incrementing LookAway for changestim by 250 156862.7653
+[04/21/2021 03:54:02.510]Incrementing LookAway for changestim by 250 157114.0894
+[04/21/2021 03:54:02.775]Incrementing LookAway for changestim by 250 157379.3806
+[04/21/2021 03:54:03.028]Incrementing LookAway for changestim by 250 157632.126
+[04/21/2021 03:54:03.280]Incrementing LookAway for changestim by 250 157884.1473
+[04/21/2021 03:54:03.535]Incrementing LookAway for changestim by 250 158139.1622
+[04/21/2021 03:54:03.786]Incrementing LookAway for changestim by 250 158390.1817
+[04/21/2021 03:54:04.051]Incrementing LookAway for changestim by 250 158655.1485
+[04/21/2021 03:54:04.305]Incrementing LookAway for changestim by 250 158909.1508
+[04/21/2021 03:54:04.570]Incrementing LookAway for changestim by 250 159174.2065
+[04/21/2021 03:54:04.823]Incrementing LookAway for changestim by 250 159427.5012
+[04/21/2021 03:54:05.078]Incrementing LookAway for changestim by 250 159682.1285
+[04/21/2021 03:54:05.334]Incrementing LookAway for changestim by 250 159938.2184
+[04/21/2021 03:54:05.590]Incrementing LookAway for changestim by 250 160193.8202
+[04/21/2021 03:54:05.840]Incrementing LookAway for changestim by 250 160444.4946
+[04/21/2021 03:54:06.094]Incrementing LookAway for changestim by 250 160697.7883
+[04/21/2021 03:54:06.347]Incrementing LookAway for changestim by 250 160951.1391
+[04/21/2021 03:54:06.366]Debug, Exp Worker: executing step 13 inside of a loop
+[04/21/2021 03:54:06.366]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:54:06.367]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:54:06.367]Debug: look duration for previous key (L), 6947, was complete, will not be included in current look - look time is: 4501
+[04/21/2021 03:54:06.626]habituation trial 6 ended_successfully 161229.7039
+[04/21/2021 03:54:06.626]current trial number is 11 156469.3099
+[04/21/2021 03:54:06.626]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:06.626]Incrementing LookAway for changestim by 250 161229.7039
+[04/21/2021 03:54:06.640]stimuli audio off LEFT 161243.1105
+[04/21/2021 03:54:06.740]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:54:06.839]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:54:06.839]Debug, Exp Worker: loop completed 5 times
+[04/21/2021 03:54:06.839]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:54:06.839]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:06.839]stimuli audio LOOP LEFT controlstim 161443.5898
+[04/21/2021 03:54:06.876]Incrementing LookAway for controlstim by 250 161480.4622
+[04/21/2021 03:54:07.140]Incrementing LookAway for controlstim by 250 161743.7867
+[04/21/2021 03:54:07.391]Incrementing LookAway for controlstim by 250 161995.1168
+[04/21/2021 03:54:07.642]Incrementing LookAway for controlstim by 250 162246.5843
+[04/21/2021 03:54:07.907]Incrementing LookAway for controlstim by 250 162511.2795
+[04/21/2021 03:54:08.172]Incrementing LookAway for controlstim by 250 162776.17
+[04/21/2021 03:54:08.424]Incrementing LookAway for controlstim by 250 163028.6153
+[04/21/2021 03:54:08.677]Incrementing LookAway for controlstim by 250 163281.2534
+[04/21/2021 03:54:08.930]Incrementing LookAway for controlstim by 250 163534.1411
+[04/21/2021 03:54:09.185]Incrementing LookAway for controlstim by 250 163788.9277
+[04/21/2021 03:54:09.439]Incrementing LookAway for controlstim by 250 164043.424
+[04/21/2021 03:54:09.694]Incrementing LookAway for controlstim by 250 164298.273
+[04/21/2021 03:54:09.947]Incrementing LookAway for controlstim by 250 164551.6056
+[04/21/2021 03:54:10.202]Incrementing LookAway for controlstim by 250 164806.5581
+[04/21/2021 03:54:10.457]Incrementing LookAway for controlstim by 250 165061.5993
+[04/21/2021 03:54:10.710]Incrementing LookAway for controlstim by 250 165314.5629
+[04/21/2021 03:54:10.961]Incrementing LookAway for controlstim by 250 165565.4177
+[04/21/2021 03:54:11.216]Incrementing LookAway for controlstim by 250 165820.1688
+[04/21/2021 03:54:11.471]Incrementing LookAway for controlstim by 250 166075.2841
+[04/21/2021 03:54:11.724]Incrementing LookAway for controlstim by 250 166328.5671
+[04/21/2021 03:54:11.975]Incrementing LookAway for controlstim by 250 166579.1929
+[04/21/2021 03:54:12.229]Incrementing LookAway for controlstim by 250 166833.1928
+[04/21/2021 03:54:12.494]Incrementing LookAway for controlstim by 250 167098.1245
+[04/21/2021 03:54:12.745]Incrementing LookAway for controlstim by 250 167348.8315
+[04/21/2021 03:54:12.995]Incrementing LookAway for controlstim by 250 167599.0906
+[04/21/2021 03:54:13.249]Incrementing LookAway for controlstim by 250 167853.1637
+[04/21/2021 03:54:13.504]Incrementing LookAway for controlstim by 250 168107.9875
+[04/21/2021 03:54:13.739]Debug: C pressed
+[04/21/2021 03:54:13.739]Debug: look duration for previous key (L), 4501, was complete, will not be included in current look - look time is: 6899
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:54:13.835]habituation trial 7 started 168439.1025
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:54:13.835]Group controltrial taken from group test
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:13.835]Group controltrialstim from group controltrial
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:13.835]Group controltrialside from group controltrial
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:13.835]Tag controlstim from group controltrialstim
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:13.835]SDL tag RIGHT from group controltrialside
+[04/21/2021 03:54:13.835]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:13.840]stimuli audio off LEFT 168444.0958
+[04/21/2021 03:54:13.840]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:13.840]stimuli audio LOOP LEFT controlstim 168444.0958
+[04/21/2021 03:54:13.990]Incrementing LookAway for controlstim by 250 168594.2133
+[04/21/2021 03:54:14.241]Incrementing LookAway for controlstim by 250 168845.5713
+[04/21/2021 03:54:14.493]Incrementing LookAway for controlstim by 250 169096.8972
+[04/21/2021 03:54:14.757]Incrementing LookAway for controlstim by 250 169361.4701
+[04/21/2021 03:54:15.022]Incrementing LookAway for controlstim by 250 169626.2321
+[04/21/2021 03:54:15.285]Incrementing LookAway for controlstim by 250 169889.44
+[04/21/2021 03:54:15.537]Incrementing LookAway for controlstim by 250 170141.0736
+[04/21/2021 03:54:15.790]Incrementing LookAway for controlstim by 250 170394.2617
+[04/21/2021 03:54:16.042]Incrementing LookAway for controlstim by 250 170646.2143
+[04/21/2021 03:54:16.243]Debug: L pressed
+[04/21/2021 03:54:16.243]Debug: look duration for previous key (C), 6899, was complete, will not be included in current look - look time is: 2403
+[04/21/2021 03:54:16.347]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:54:16.347]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:16.347]current action side is reward_test5 168444.0958
+[04/21/2021 03:54:16.347]side is RIGHT channel is 2
+[04/21/2021 03:54:16.350]side is RIGHT 170954.3295
+[04/21/2021 03:54:16.350]stimuli light on RIGHT 170954.3295
+[04/21/2021 03:54:16.496]Incrementing LookAway for RIGHT by 250 171100.1022
+[04/21/2021 03:54:16.748]Incrementing LookAway for RIGHT by 250 171352.0999
+[04/21/2021 03:54:17.013]Incrementing LookAway for RIGHT by 250 171617.0348
+[04/21/2021 03:54:17.267]Incrementing LookAway for RIGHT by 250 171871.259
+[04/21/2021 03:54:17.521]Incrementing LookAway for RIGHT by 250 172124.9323
+[04/21/2021 03:54:17.774]Incrementing LookAway for RIGHT by 250 172378.222
+[04/21/2021 03:54:18.028]Incrementing LookAway for RIGHT by 250 172631.9333
+[04/21/2021 03:54:18.280]Incrementing LookAway for RIGHT by 250 172883.859
+[04/21/2021 03:54:18.544]Incrementing LookAway for RIGHT by 250 173148.6309
+[04/21/2021 03:54:18.798]Incrementing LookAway for RIGHT by 250 173402.4703
+[04/21/2021 03:54:19.050]Incrementing LookAway for RIGHT by 250 173654.3646
+[04/21/2021 03:54:19.304]Incrementing LookAway for RIGHT by 250 173907.8334
+[04/21/2021 03:54:19.350]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:54:19.350]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:54:19.351]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:54:19.351]Debug: look duration for previous key (C), 2403, was complete, will not be included in current look - look time is: 3003
+[04/21/2021 03:54:19.351]look audio LEFT controlstim duration 3003 173954.7084
+[04/21/2021 03:54:19.602]habituation trial 7 ended_successfully 174206.4919
+[04/21/2021 03:54:19.602]current trial number is 12 170954.3295
+[04/21/2021 03:54:19.602]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:19.602]Incrementing LookAway for RIGHT by 250 174206.4919
+[04/21/2021 03:54:19.602]current action side is reward_test5 170954.3295
+[04/21/2021 03:54:19.602]side is RIGHT channel is 2
+[04/21/2021 03:54:19.605]side is RIGHT 174209.4931
+[04/21/2021 03:54:19.605]stimuli light off RIGHT 174209.4931
+[04/21/2021 03:54:19.605]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:19.616]stimuli audio off LEFT 174219.6979
+[04/21/2021 03:54:19.715]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:54:19.815]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:54:19.816]Debug, Exp Worker: loop completed 6 times
+[04/21/2021 03:54:19.816]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:54:19.816]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:19.816]stimuli audio LOOP LEFT controlstim 174419.764
+[04/21/2021 03:54:26.691]Debug: C pressed
+[04/21/2021 03:54:26.691]Debug: look duration for previous key (C), 3003, was complete, will not be included in current look - look time is: 6875
+[04/21/2021 03:54:26.795]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:54:26.795]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:54:26.795]habituation trial 8 started 181398.8992
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:54:26.796]Group changetrial taken from group test
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:26.796]Group changetrialstim from group changetrial
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:26.796]Group changetrialside from group changetrial
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:26.796]Tag changestim from group changetrialstim
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:26.796]SDL tag LEFT from group changetrialside
+[04/21/2021 03:54:26.796]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:26.800]stimuli audio off LEFT 181404.0916
+[04/21/2021 03:54:26.800]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:26.800]stimuli audio LOOP LEFT changestim 181404.0916
+[04/21/2021 03:54:26.957]Incrementing LookAway for changestim by 250 181561.3678
+[04/21/2021 03:54:27.222]Incrementing LookAway for changestim by 250 181826.0989
+[04/21/2021 03:54:27.473]Incrementing LookAway for changestim by 250 182077.6546
+[04/21/2021 03:54:27.724]Incrementing LookAway for changestim by 250 182328.0004
+[04/21/2021 03:54:27.979]Incrementing LookAway for changestim by 250 182583.3169
+[04/21/2021 03:54:28.051]Debug: L pressed
+[04/21/2021 03:54:28.051]Debug: look duration for previous key (L), 6875, was complete, will not be included in current look - look time is: 1251
+[04/21/2021 03:54:28.172]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:54:28.172]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:28.172]current action side is reward_test5 181404.0916
+[04/21/2021 03:54:28.172]side is LEFT channel is 1
+[04/21/2021 03:54:28.177]side is LEFT 182781.1891
+[04/21/2021 03:54:28.177]stimuli light on LEFT 182781.1891
+[04/21/2021 03:54:31.177]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:54:31.177]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:54:31.177]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:54:31.177]Debug: look duration for previous key (C), 1251, was complete, will not be included in current look - look time is: 3005
+[04/21/2021 03:54:31.177]look light LEFT no_tag duration 3005 185780.792
+[04/21/2021 03:54:31.177]look audio LEFT changestim duration 3005 185780.792
+[04/21/2021 03:54:31.428]habituation trial 8 ended_successfully 186032.4309
+[04/21/2021 03:54:31.428]current trial number is 13 182781.1891
+[04/21/2021 03:54:31.428]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:31.428]current action side is reward_test5 182781.1891
+[04/21/2021 03:54:31.428]side is LEFT channel is 1
+[04/21/2021 03:54:31.433]side is LEFT 186037.3346
+[04/21/2021 03:54:31.433]stimuli light off LEFT 186037.3346
+[04/21/2021 03:54:31.433]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:31.442]stimuli audio off LEFT 186046.3347
+[04/21/2021 03:54:31.542]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:54:31.642]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:54:31.642]Debug, Exp Worker: loop completed 7 times
+[04/21/2021 03:54:31.642]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:54:31.642]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:31.642]stimuli audio LOOP LEFT controlstim 186246.2975
+[04/21/2021 03:54:38.427]Debug: C pressed
+[04/21/2021 03:54:38.427]Debug: look duration for previous key (C), 3005, was complete, will not be included in current look - look time is: 6784
+[04/21/2021 03:54:38.523]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:54:38.523]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:54:38.523]habituation trial 9 started 193127.3033
+[04/21/2021 03:54:38.523]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:54:38.524]Group changetrial taken from group test
+[04/21/2021 03:54:38.524]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:38.524]Group changetrialstim from group changetrial
+[04/21/2021 03:54:38.524]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:38.524]Group changetrialside from group changetrial
+[04/21/2021 03:54:38.524]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:38.524]Tag changestim from group changetrialstim
+[04/21/2021 03:54:38.524]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:38.524]SDL tag LEFT from group changetrialside
+[04/21/2021 03:54:38.524]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:38.528]stimuli audio off LEFT 193132.5087
+[04/21/2021 03:54:38.528]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:38.528]stimuli audio LOOP LEFT changestim 193132.5087
+[04/21/2021 03:54:38.691]Incrementing LookAway for changestim by 250 193295.1033
+[04/21/2021 03:54:38.941]Incrementing LookAway for changestim by 250 193545.4346
+[04/21/2021 03:54:39.197]Incrementing LookAway for changestim by 250 193800.7477
+[04/21/2021 03:54:39.450]Incrementing LookAway for changestim by 250 194054.0804
+[04/21/2021 03:54:39.703]Incrementing LookAway for changestim by 250 194307.5101
+[04/21/2021 03:54:39.955]Incrementing LookAway for changestim by 250 194558.8095
+[04/21/2021 03:54:40.208]Incrementing LookAway for changestim by 250 194812.1324
+[04/21/2021 03:54:40.461]Incrementing LookAway for changestim by 250 195065.0064
+[04/21/2021 03:54:40.714]Incrementing LookAway for changestim by 250 195317.8652
+[04/21/2021 03:54:40.969]Incrementing LookAway for changestim by 250 195572.7157
+[04/21/2021 03:54:41.211]Debug: L pressed
+[04/21/2021 03:54:41.211]Debug: look duration for previous key (L), 6784, was complete, will not be included in current look - look time is: 2682
+[04/21/2021 03:54:41.347]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:54:41.347]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:41.347]current action side is reward_test5 193132.5087
+[04/21/2021 03:54:41.347]side is LEFT channel is 1
+[04/21/2021 03:54:41.352]side is LEFT 195956.2905
+[04/21/2021 03:54:41.352]stimuli light on LEFT 195956.2905
+[04/21/2021 03:54:44.352]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:54:44.352]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:54:44.353]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:54:44.353]Debug: look duration for previous key (C), 2682, was complete, will not be included in current look - look time is: 3005
+[04/21/2021 03:54:44.353]look light LEFT no_tag duration 3005 198956.8541
+[04/21/2021 03:54:44.353]look audio LEFT changestim duration 3005 198956.8541
+[04/21/2021 03:54:44.618]habituation trial 9 ended_successfully 199222.4062
+[04/21/2021 03:54:44.618]current trial number is 14 195956.2905
+[04/21/2021 03:54:44.618]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:54:44.618]current action side is reward_test5 195956.2905
+[04/21/2021 03:54:44.618]side is LEFT channel is 1
+[04/21/2021 03:54:44.623]side is LEFT 199227.2395
+[04/21/2021 03:54:44.623]stimuli light off LEFT 199227.2395
+[04/21/2021 03:54:44.623]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:44.627]stimuli audio off LEFT 199231.6042
+[04/21/2021 03:54:44.727]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:54:44.828]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:54:44.828]Debug, Exp Worker: loop completed 8 times
+[04/21/2021 03:54:44.828]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:54:44.828]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:44.828]stimuli audio LOOP LEFT controlstim 199432.1255
+[04/21/2021 03:54:50.435]Debug: C pressed
+[04/21/2021 03:54:50.435]Debug: look duration for previous key (C), 3005, was complete, will not be included in current look - look time is: 5607
+[04/21/2021 03:54:50.587]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:54:50.587]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:54:50.587]habituation trial 10 started 205191.165
+[04/21/2021 03:54:50.587]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:54:50.602]Group controltrial taken from group test
+[04/21/2021 03:54:50.602]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:50.602]Group controltrialstim from group controltrial
+[04/21/2021 03:54:50.602]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:50.602]Group controltrialside from group controltrial
+[04/21/2021 03:54:50.602]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:50.602]Tag controlstim from group controltrialstim
+[04/21/2021 03:54:50.602]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:54:50.602]SDL tag RIGHT from group controltrialside
+[04/21/2021 03:54:50.602]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:50.606]stimuli audio off LEFT 205208.8746
+[04/21/2021 03:54:50.606]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:50.606]stimuli audio LOOP LEFT controlstim 205209.8562
+[04/21/2021 03:54:50.690]Incrementing LookAway for controlstim by 250 205294.6564
+[04/21/2021 03:54:50.942]Incrementing LookAway for controlstim by 250 205546.4096
+[04/21/2021 03:54:51.194]Incrementing LookAway for controlstim by 250 205798.138
+[04/21/2021 03:54:51.445]Incrementing LookAway for controlstim by 250 206048.9295
+[04/21/2021 03:54:51.697]Incrementing LookAway for controlstim by 250 206300.8234
+[04/21/2021 03:54:51.948]Incrementing LookAway for controlstim by 250 206552.186
+[04/21/2021 03:54:52.213]Incrementing LookAway for controlstim by 250 206817.1072
+[04/21/2021 03:54:52.463]Incrementing LookAway for controlstim by 250 207067.3831
+[04/21/2021 03:54:52.714]Incrementing LookAway for controlstim by 250 207318.4229
+[04/21/2021 03:54:52.970]Incrementing LookAway for controlstim by 250 207574.0753
+[04/21/2021 03:54:53.223]Incrementing LookAway for controlstim by 250 207826.9538
+[04/21/2021 03:54:53.476]Incrementing LookAway for controlstim by 250 208080.6498
+[04/21/2021 03:54:53.741]Incrementing LookAway for controlstim by 250 208344.9426
+[04/21/2021 03:54:53.996]Incrementing LookAway for controlstim by 250 208600.2625
+[04/21/2021 03:54:54.249]Incrementing LookAway for controlstim by 250 208853.5826
+[04/21/2021 03:54:54.503]Incrementing LookAway for controlstim by 250 209107.1235
+[04/21/2021 03:54:54.755]Incrementing LookAway for controlstim by 250 209359.1328
+[04/21/2021 03:54:55.006]Incrementing LookAway for controlstim by 250 209610.0966
+[04/21/2021 03:54:55.107]Debug, Exp Worker: executing step 13 inside of a loop
+[04/21/2021 03:54:55.107]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:54:55.107]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:54:55.107]Debug: look duration for previous key (L), 5607, was complete, will not be included in current look - look time is: 4502
+[04/21/2021 03:54:55.369]habituation trial 10 ended_successfully 209973.6552
+[04/21/2021 03:54:55.369]current trial number is 15 205209.8562
+[04/21/2021 03:54:55.369]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:55.369]Incrementing LookAway for controlstim by 250 209973.6552
+[04/21/2021 03:54:55.379]stimuli audio off LEFT 209982.9177
+[04/21/2021 03:54:55.479]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:54:55.579]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:54:55.579]Debug, Exp Worker: loop completed 9 times
+[04/21/2021 03:54:55.579]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:54:55.579]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:54:55.579]stimuli audio LOOP LEFT controlstim 210183.3903
+[04/21/2021 03:54:55.621]Incrementing LookAway for controlstim by 250 210225.2499
+[04/21/2021 03:54:55.876]Incrementing LookAway for controlstim by 250 210480.2492
+[04/21/2021 03:54:56.130]Incrementing LookAway for controlstim by 250 210734.2316
+[04/21/2021 03:54:56.385]Incrementing LookAway for controlstim by 250 210989.549
+[04/21/2021 03:54:56.637]Incrementing LookAway for controlstim by 250 211241.4975
+[04/21/2021 03:54:56.890]Incrementing LookAway for controlstim by 250 211494.3194
+[04/21/2021 03:54:57.143]Incrementing LookAway for controlstim by 250 211747.3703
+[04/21/2021 03:54:57.408]Incrementing LookAway for controlstim by 250 212012.1842
+[04/21/2021 03:54:57.660]Incrementing LookAway for controlstim by 250 212264.2376
+[04/21/2021 03:54:57.914]Incrementing LookAway for controlstim by 250 212518.511
+[04/21/2021 03:54:58.166]Incrementing LookAway for controlstim by 250 212770.4344
+[04/21/2021 03:54:58.419]Incrementing LookAway for controlstim by 250 213023.1763
+[04/21/2021 03:54:58.671]Incrementing LookAway for controlstim by 250 213275.2326
+[04/21/2021 03:54:58.924]Incrementing LookAway for controlstim by 250 213528.5037
+[04/21/2021 03:54:59.177]Incrementing LookAway for controlstim by 250 213781.2473
+[04/21/2021 03:54:59.432]Incrementing LookAway for controlstim by 250 214036.2841
+[04/21/2021 03:54:59.686]Incrementing LookAway for controlstim by 250 214290.0619
+[04/21/2021 03:54:59.939]Incrementing LookAway for controlstim by 250 214543.2017
+[04/21/2021 03:55:00.204]Incrementing LookAway for controlstim by 250 214808.2517
+[04/21/2021 03:55:00.456]Incrementing LookAway for controlstim by 250 215060.2232
+[04/21/2021 03:55:00.667]Debug: C pressed
+[04/21/2021 03:55:00.667]Debug: look duration for previous key (L), 4502, was complete, will not be included in current look - look time is: 5087
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:55:00.755]habituation trial 11 started 215359.0648
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:55:00.755]Group changetrial taken from group test
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:00.755]Group changetrialstim from group changetrial
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:00.755]Group changetrialside from group changetrial
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:00.755]Tag changestim from group changetrialstim
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:00.755]SDL tag LEFT from group changetrialside
+[04/21/2021 03:55:00.755]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:00.761]stimuli audio off LEFT 215365.377
+[04/21/2021 03:55:00.761]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:00.761]stimuli audio LOOP LEFT changestim 215365.377
+[04/21/2021 03:55:00.927]Incrementing LookAway for changestim by 250 215530.938
+[04/21/2021 03:55:01.190]Incrementing LookAway for changestim by 250 215794.2048
+[04/21/2021 03:55:01.443]Incrementing LookAway for changestim by 250 216047.1637
+[04/21/2021 03:55:01.708]Incrementing LookAway for changestim by 250 216312.1675
+[04/21/2021 03:55:01.961]Incrementing LookAway for changestim by 250 216565.1537
+[04/21/2021 03:55:02.147]Debug: L pressed
+[04/21/2021 03:55:02.147]Debug: look duration for previous key (C), 5087, was complete, will not be included in current look - look time is: 1385
+[04/21/2021 03:55:02.275]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:55:02.275]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:55:02.275]current action side is reward_test5 215365.377
+[04/21/2021 03:55:02.275]side is LEFT channel is 1
+[04/21/2021 03:55:02.280]side is LEFT 216884.0833
+[04/21/2021 03:55:02.280]stimuli light on LEFT 216884.0833
+[04/21/2021 03:55:05.280]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:55:05.280]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:55:05.280]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:55:05.280]Debug: look duration for previous key (C), 1385, was complete, will not be included in current look - look time is: 3005
+[04/21/2021 03:55:05.280]look light LEFT no_tag duration 3005 219884.46
+[04/21/2021 03:55:05.280]look audio LEFT changestim duration 3005 219884.46
+[04/21/2021 03:55:05.544]habituation trial 11 ended_successfully 220148.5385
+[04/21/2021 03:55:05.544]current trial number is 16 216884.0833
+[04/21/2021 03:55:05.544]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:55:05.544]current action side is reward_test5 216884.0833
+[04/21/2021 03:55:05.544]side is LEFT channel is 1
+[04/21/2021 03:55:05.549]side is LEFT 220153.5639
+[04/21/2021 03:55:05.549]stimuli light off LEFT 220153.5639
+[04/21/2021 03:55:05.549]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:05.554]stimuli audio off LEFT 220158.0404
+[04/21/2021 03:55:05.654]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:55:05.753]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:55:05.753]Debug, Exp Worker: loop completed 10 times
+[04/21/2021 03:55:05.753]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:55:05.753]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:05.753]stimuli audio LOOP LEFT controlstim 220357.5305
+[04/21/2021 03:55:13.307]Debug: C pressed
+[04/21/2021 03:55:13.307]Debug: look duration for previous key (C), 3005, was complete, will not be included in current look - look time is: 7553
+[04/21/2021 03:55:13.419]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:55:13.419]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:55:13.419]habituation trial 12 started 228023.6043
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:55:13.420]Group changetrial taken from group test
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:13.420]Group changetrialstim from group changetrial
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:13.420]Group changetrialside from group changetrial
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:13.420]Tag changestim from group changetrialstim
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:13.420]SDL tag LEFT from group changetrialside
+[04/21/2021 03:55:13.420]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:13.423]stimuli audio off LEFT 228027.5645
+[04/21/2021 03:55:13.423]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:13.423]stimuli audio LOOP LEFT changestim 228027.5645
+[04/21/2021 03:55:13.570]Incrementing LookAway for changestim by 250 228174.0156
+[04/21/2021 03:55:13.821]Incrementing LookAway for changestim by 250 228425.6321
+[04/21/2021 03:55:14.075]Incrementing LookAway for changestim by 250 228679.1303
+[04/21/2021 03:55:14.329]Incrementing LookAway for changestim by 250 228933.6638
+[04/21/2021 03:55:14.583]Incrementing LookAway for changestim by 250 229186.9914
+[04/21/2021 03:55:14.731]Debug: L pressed
+[04/21/2021 03:55:14.731]Debug: look duration for previous key (L), 7553, was complete, will not be included in current look - look time is: 1307
+[04/21/2021 03:55:14.891]Debug, Exp Worker: executing step 11 inside of a loop
+[04/21/2021 03:55:14.891]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:55:14.891]current action side is reward_test5 228027.5645
+[04/21/2021 03:55:14.891]side is LEFT channel is 1
+[04/21/2021 03:55:14.896]side is LEFT 229500.3193
+[04/21/2021 03:55:14.896]stimuli light on LEFT 229500.3193
+[04/21/2021 03:55:17.896]Debug, Exp Worker: executing step 12 inside of a loop
+[04/21/2021 03:55:17.896]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:55:17.897]Debug: look towards L being handled automatically at end of trial
+[04/21/2021 03:55:17.897]Debug: look duration for previous key (C), 1307, was complete, will not be included in current look - look time is: 3005
+[04/21/2021 03:55:17.897]look light LEFT no_tag duration 3005 232501.3375
+[04/21/2021 03:55:17.897]look audio LEFT changestim duration 3005 232501.3375
+[04/21/2021 03:55:18.159]habituation trial 12 ended_successfully 232763.0908
+[04/21/2021 03:55:18.159]current trial number is 17 229500.3193
+[04/21/2021 03:55:18.159]Debug, Exp Worker: executing a LIGHT action
+[04/21/2021 03:55:18.159]current action side is reward_test5 229500.3193
+[04/21/2021 03:55:18.159]side is LEFT channel is 1
+[04/21/2021 03:55:18.164]side is LEFT 232767.8524
+[04/21/2021 03:55:18.164]stimuli light off LEFT 232767.8524
+[04/21/2021 03:55:18.164]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:18.173]stimuli audio off LEFT 232776.878
+[04/21/2021 03:55:18.272]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:55:18.372]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:55:18.372]Debug, Exp Worker: loop completed 11 times
+[04/21/2021 03:55:18.372]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:55:18.372]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:18.372]stimuli audio LOOP LEFT controlstim 232976.317
+[04/21/2021 03:55:25.355]Debug: C pressed
+[04/21/2021 03:55:25.355]Debug: look duration for previous key (C), 3005, was complete, will not be included in current look - look time is: 6982
+[04/21/2021 03:55:25.451]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:55:25.451]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:55:25.451]habituation trial 13 started 240054.8793
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:55:25.452]Group controltrial taken from group test
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:25.452]Group controltrialstim from group controltrial
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:25.452]Group controltrialside from group controltrial
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:25.452]Tag controlstim from group controltrialstim
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:25.452]SDL tag RIGHT from group controltrialside
+[04/21/2021 03:55:25.452]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:25.456]stimuli audio off LEFT 240059.8386
+[04/21/2021 03:55:25.456]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:25.456]stimuli audio LOOP LEFT controlstim 240059.8386
+[04/21/2021 03:55:25.615]Incrementing LookAway for controlstim by 250 240219.4395
+[04/21/2021 03:55:25.867]Incrementing LookAway for controlstim by 250 240470.7689
+[04/21/2021 03:55:26.120]Incrementing LookAway for controlstim by 250 240724.0876
+[04/21/2021 03:55:26.373]Incrementing LookAway for controlstim by 250 240977.4101
+[04/21/2021 03:55:26.627]Incrementing LookAway for controlstim by 250 241230.7327
+[04/21/2021 03:55:26.878]Incrementing LookAway for controlstim by 250 241482.0652
+[04/21/2021 03:55:27.133]Incrementing LookAway for controlstim by 250 241737.3827
+[04/21/2021 03:55:27.388]Incrementing LookAway for controlstim by 250 241991.7016
+[04/21/2021 03:55:27.642]Incrementing LookAway for controlstim by 250 242245.9941
+[04/21/2021 03:55:27.897]Incrementing LookAway for controlstim by 250 242501.3403
+[04/21/2021 03:55:28.149]Incrementing LookAway for controlstim by 250 242752.9941
+[04/21/2021 03:55:28.402]Incrementing LookAway for controlstim by 250 243005.8227
+[04/21/2021 03:55:28.657]Incrementing LookAway for controlstim by 250 243261.6019
+[04/21/2021 03:55:28.912]Incrementing LookAway for controlstim by 250 243516.4737
+[04/21/2021 03:55:29.167]Incrementing LookAway for controlstim by 250 243771.4145
+[04/21/2021 03:55:29.423]Incrementing LookAway for controlstim by 250 244026.9621
+[04/21/2021 03:55:29.676]Incrementing LookAway for controlstim by 250 244280.2906
+[04/21/2021 03:55:29.931]Incrementing LookAway for controlstim by 250 244534.8006
+[04/21/2021 03:55:29.957]Debug, Exp Worker: executing step 13 inside of a loop
+[04/21/2021 03:55:29.957]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:55:29.958]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:55:29.958]Debug: look duration for previous key (L), 6982, was complete, will not be included in current look - look time is: 4501
+[04/21/2021 03:55:30.212]habituation trial 13 ended_successfully 244816.2785
+[04/21/2021 03:55:30.212]current trial number is 18 240059.8386
+[04/21/2021 03:55:30.212]Incrementing LookAway for controlstim by 250 244816.2785
+[04/21/2021 03:55:30.212]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:30.222]stimuli audio off LEFT 244826.1044
+[04/21/2021 03:55:30.323]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:55:30.423]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:55:30.423]Debug, Exp Worker: loop completed 12 times
+[04/21/2021 03:55:30.423]Debug, Exp Worker: executing step 9 inside of a loop
+[04/21/2021 03:55:30.423]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:30.423]stimuli audio LOOP LEFT controlstim 245027.071
+[04/21/2021 03:55:30.476]Incrementing LookAway for controlstim by 250 245080.4065
+[04/21/2021 03:55:30.727]Incrementing LookAway for controlstim by 250 245331.1427
+[04/21/2021 03:55:30.978]Incrementing LookAway for controlstim by 250 245582.4417
+[04/21/2021 03:55:31.230]Incrementing LookAway for controlstim by 250 245833.7986
+[04/21/2021 03:55:31.493]Incrementing LookAway for controlstim by 250 246097.095
+[04/21/2021 03:55:31.744]Incrementing LookAway for controlstim by 250 246348.4241
+[04/21/2021 03:55:32.010]Incrementing LookAway for controlstim by 250 246613.7177
+[04/21/2021 03:55:32.265]Incrementing LookAway for controlstim by 250 246869.0028
+[04/21/2021 03:55:32.520]Incrementing LookAway for controlstim by 250 247124.3499
+[04/21/2021 03:55:32.773]Incrementing LookAway for controlstim by 250 247376.8865
+[04/21/2021 03:55:33.024]Incrementing LookAway for controlstim by 250 247628.3112
+[04/21/2021 03:55:33.277]Incrementing LookAway for controlstim by 250 247881.6626
+[04/21/2021 03:55:33.533]Incrementing LookAway for controlstim by 250 248137.2521
+[04/21/2021 03:55:33.788]Incrementing LookAway for controlstim by 250 248391.8123
+[04/21/2021 03:55:34.041]Incrementing LookAway for controlstim by 250 248645.1946
+[04/21/2021 03:55:34.297]Incrementing LookAway for controlstim by 250 248901.2216
+[04/21/2021 03:55:34.552]Incrementing LookAway for controlstim by 250 249156.1977
+[04/21/2021 03:55:34.817]Incrementing LookAway for controlstim by 250 249421.2401
+[04/21/2021 03:55:35.073]Incrementing LookAway for controlstim by 250 249677.2105
+[04/21/2021 03:55:35.327]Incrementing LookAway for controlstim by 250 249931.3496
+[04/21/2021 03:55:35.580]Incrementing LookAway for controlstim by 250 250184.201
+[04/21/2021 03:55:35.842]Incrementing LookAway for controlstim by 250 250446.0026
+[04/21/2021 03:55:36.093]Incrementing LookAway for controlstim by 250 250696.9338
+[04/21/2021 03:55:36.348]Incrementing LookAway for controlstim by 250 250952.3545
+[04/21/2021 03:55:36.604]Incrementing LookAway for controlstim by 250 251208.2677
+[04/21/2021 03:55:36.856]Incrementing LookAway for controlstim by 250 251460.3254
+[04/21/2021 03:55:37.110]Incrementing LookAway for controlstim by 250 251714.262
+[04/21/2021 03:55:37.361]Incrementing LookAway for controlstim by 250 251965.231
+[04/21/2021 03:55:37.615]Incrementing LookAway for controlstim by 250 252219.2608
+[04/21/2021 03:55:37.880]Incrementing LookAway for controlstim by 250 252484.2533
+[04/21/2021 03:55:38.135]Incrementing LookAway for controlstim by 250 252739.6333
+[04/21/2021 03:55:38.389]Incrementing LookAway for controlstim by 250 252993.5021
+[04/21/2021 03:55:38.645]Incrementing LookAway for controlstim by 250 253249.6322
+[04/21/2021 03:55:38.899]Incrementing LookAway for controlstim by 250 253502.7168
+[04/21/2021 03:55:39.153]Incrementing LookAway for controlstim by 250 253757.1267
+[04/21/2021 03:55:39.395]Debug: C pressed
+[04/21/2021 03:55:39.395]Debug: look duration for previous key (L), 4501, was complete, will not be included in current look - look time is: 8972
+[04/21/2021 03:55:39.500]Debug, Exp Worker: executing step 10 inside of a loop
+[04/21/2021 03:55:39.500]Debug, Exp Worker: executing a TRIAL_S action
+[04/21/2021 03:55:39.500]habituation trial 14 started 254103.6964
+[04/21/2021 03:55:39.500]Debug, Exp Worker: executing a TAKE action
+[04/21/2021 03:55:39.659]Incrementing LookAway for controlstim by 250 254263.3409
+[04/21/2021 03:55:39.665]Group controltrial taken from group test
+[04/21/2021 03:55:39.665]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:39.665]Group controltrialstim from group controltrial
+[04/21/2021 03:55:39.665]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:39.665]Group controltrialside from group controltrial
+[04/21/2021 03:55:39.665]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:39.665]Tag controlstim from group controltrialstim
+[04/21/2021 03:55:39.665]Debug, Exp Worker: executing a FROM action
+[04/21/2021 03:55:39.665]SDL tag RIGHT from group controltrialside
+[04/21/2021 03:55:39.665]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:39.668]stimuli audio off LEFT 254272.3144
+[04/21/2021 03:55:39.668]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:39.668]stimuli audio LOOP LEFT controlstim 254272.3144
+[04/21/2021 03:55:39.914]Incrementing LookAway for controlstim by 250 254517.7678
+[04/21/2021 03:55:40.166]Incrementing LookAway for controlstim by 250 254770.3766
+[04/21/2021 03:55:40.432]Incrementing LookAway for controlstim by 250 255036.0102
+[04/21/2021 03:55:40.686]Incrementing LookAway for controlstim by 250 255290.0974
+[04/21/2021 03:55:40.938]Incrementing LookAway for controlstim by 250 255542.2458
+[04/21/2021 03:55:41.193]Incrementing LookAway for controlstim by 250 255796.8366
+[04/21/2021 03:55:41.448]Incrementing LookAway for controlstim by 250 256052.0232
+[04/21/2021 03:55:41.698]Incrementing LookAway for controlstim by 250 256302.448
+[04/21/2021 03:55:41.953]Incrementing LookAway for controlstim by 250 256557.2629
+[04/21/2021 03:55:42.207]Incrementing LookAway for controlstim by 250 256811.2978
+[04/21/2021 03:55:42.460]Incrementing LookAway for controlstim by 250 257064.0996
+[04/21/2021 03:55:42.710]Incrementing LookAway for controlstim by 250 257314.4109
+[04/21/2021 03:55:42.975]Incrementing LookAway for controlstim by 250 257579.2249
+[04/21/2021 03:55:43.230]Incrementing LookAway for controlstim by 250 257834.2433
+[04/21/2021 03:55:43.486]Incrementing LookAway for controlstim by 250 258090.2694
+[04/21/2021 03:55:43.741]Incrementing LookAway for controlstim by 250 258345.1089
+[04/21/2021 03:55:43.995]Incrementing LookAway for controlstim by 250 258598.943
+[04/21/2021 03:55:44.169]Debug, Exp Worker: executing step 13 inside of a loop
+[04/21/2021 03:55:44.169]Debug, Exp Worker: executing a TRIAL_E action
+[04/21/2021 03:55:44.170]Debug: look towards C being handled automatically at end of trial
+[04/21/2021 03:55:44.170]Debug: look duration for previous key (C), 8972, was complete, will not be included in current look - look time is: 4501
+[04/21/2021 03:55:44.432]habituation trial 14 ended_successfully 259036.4202
+[04/21/2021 03:55:44.432]current trial number is 19 254272.3144
+[04/21/2021 03:55:44.432]Debug, Exp Worker: executing a AUDIO action
+[04/21/2021 03:55:44.432]Incrementing LookAway for controlstim by 250 259036.4202
+[04/21/2021 03:55:44.437]stimuli audio off LEFT 259040.8232
+[04/21/2021 03:55:44.536]Debug, Exp Worker: executing step 14 inside of a loop
+[04/21/2021 03:55:44.637]Debug, Exp Worker: evaluating loop terminating conditions
+[04/21/2021 03:55:44.637]Debug, Exp Worker: terminating condition satisfied
+[04/21/2021 03:55:44.637]Debug, Exp Worker: loop completed 13 times
+[04/21/2021 03:55:44.637]Debug, Exp Worker: loop terminating condition evaluation returning true
+[04/21/2021 03:55:44.637]Debug, Exp Worker: executing a PHASE_E action
+[04/21/2021 03:55:44.637]phase Test ended 259241.2868
+========================================================================================
+[04/21/2021 03:55:45.666]Experiment Ended: 4/21/2021 3:55:45 PM
+########################################################################################

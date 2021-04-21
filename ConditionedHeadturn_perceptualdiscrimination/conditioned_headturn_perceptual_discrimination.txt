@@ -1,0 +1,96 @@
+SIDES ARE {CENTER, LEFT, RIGHT}
+LIGHTS ARE {LEFT, RIGHT} 
+# LEFT light is actually reward stimulus, either an electronic toy that moves whenever it is supplied power or a light that illuminates a toy; RIGHT light is an empty channel on DMX box or has a device plugged in but turned off or otherwise not visible to infant or experimenter
+
+LET changestim = "C:\Users\ldev\Desktop\BITTSy\ConditionedHeadturn_perceptualdiscrimination\dental_ta.wav"
+LET controlstim = "C:\Users\ldev\Desktop\BITTSy\ConditionedHeadturn_perceptualdiscrimination\retroflex_ta.wav"
+
+LET changetrialstim = {changestim}
+LET changetrialside = {LEFT}
+LET changetrial = {changetrialstim, changetrialside}
+LET controltrialstim = {controlstim}
+LET controltrialside = {RIGHT}
+LET controltrial = {controltrialstim, controltrialside}
+LET training = {changetrial}
+LET test = {changetrial, changetrial, changetrial, changetrial, changetrial, changetrial, changetrial, changetrial, controltrial, controltrial, controltrial, controltrial, controltrial, controltrial}
+
+STEP 1
+Phase Training Start
+
+STEP 2
+AUDIO LEFT controlstim LOOP
+UNTIL KEY C
+
+STEP 3
+Trial Start
+LET trial_tr = (FROM training RANDOM)
+LET audiostim = (FROM trial_tr FIRST {with max 0 repeats in succession})
+LET reward = (FROM trial_tr FIRST {with max 0 repeats in succession})
+LET audiostim_tr = (FROM audiostim FIRST)
+LET reward_tr = (FROM reward FIRST)
+AUDIO LEFT OFF
+AUDIO LEFT audiostim_tr LOOP
+UNTIL TIME 1000
+
+STEP 4
+LIGHT reward_tr ON
+UNTIL TIME 5000
+
+STEP 5
+Trial End
+LIGHT reward_tr OFF
+AUDIO LEFT OFF
+
+STEP 6
+LOOP STEP 1
+UNTIL 4 TIMES
+
+STEP 7
+Phase End
+
+STEP 8
+Phase Test Start
+
+STEP 9
+AUDIO LEFT controlstim LOOP
+UNTIL KEY C
+
+STEP 10
+Trial Start
+LET trial_test5 = (TAKE test RANDOM)
+LET audiostim5 = (FROM trial_test5 FIRST {with max 0 repeats in succession})
+LET reward5 = (FROM trial_test5 FIRST {with max 0 repeats in succession})
+LET audiostim_test5 = (FROM audiostim5 FIRST)
+LET reward_test5 = (FROM reward5 FIRST)
+AUDIO LEFT OFF
+AUDIO LEFT audiostim_test5 LOOP
+UNTIL TIME 4500 JUMP STEP 13
+UNTIL KEY L JUMP STEP 11
+
+# hit or false alarm
+STEP 11
+LIGHT reward_test5 ON
+UNTIL TIME 3000
+
+STEP 12
+Trial End
+LIGHT reward_test5 OFF
+AUDIO LEFT OFF
+UNTIL TIME 100 JUMP STEP 14
+
+#miss or correct rejection
+STEP 13
+Trial End
+AUDIO LEFT OFF
+UNTIL TIME 100
+
+STEP 14
+UNTIL TIME 100
+
+STEP 15
+LOOP STEP 9
+UNTIL 13 TIMES
+
+STEP 16
+Phase End
+
