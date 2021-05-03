@@ -1,0 +1,201 @@
+SIDES ARE {CENTER, LEFT, RIGHT}
+LIGHTS ARE {LEFT, RIGHT}
+
+LET noise = "C:\Users\ldev\Desktop\BITTSy\ConditionedHeadturn_signaldetection\9-voices.wav"
+LET changestim = "C:\Users\ldev\Desktop\BITTSy\ConditionedHeadturn_signaldetection\Alexis.wav"
+LET controlstim = "C:\Users\ldev\Desktop\BITTSy\ConditionedHeadturn_signaldetection\silence.wav"
+
+LET changetrialstim = {changestim}
+LET changetrialside = {LEFT}
+LET changetrial = {changetrialstim, changetrialside}
+LET controltrialstim = {controlstim}
+LET controltrialside = {RIGHT}
+LET controltrial = {controltrialstim, controltrialside}
+LET training = {changetrial}
+LET conditioning = {changetrial}
+LET test = {changetrial, controltrial}
+
+STEP 1
+Phase Training Start
+AUDIO CENTER noise LOOP
+
+STEP 2
+UNTIL KEY C
+
+STEP 3
+LET trial_tr = (FROM training RANDOM)
+LET audiostim = (FROM trial_tr FIRST {with max 0 repeats in succession})
+LET reward = (FROM trial_tr FIRST {with max 0 repeats in succession})
+LET audiostim_tr = (FROM audiostim FIRST)
+LET reward_tr = (FROM reward FIRST)
+AUDIO LEFT audiostim_tr LOOP
+UNTIL TIME 1000
+
+STEP 4
+LIGHT reward_tr ON
+UNTIL TIME 5000
+
+STEP 5
+LIGHT reward_tr OFF
+AUDIO LEFT OFF
+
+STEP 6
+LOOP STEP 2
+UNTIL 3 TIMES
+
+STEP 7
+Phase End
+
+STEP 8
+Phase Conditioning Start
+
+STEP 9
+UNTIL KEY C
+
+STEP 10
+Trial Start
+LET trial_c2 = (FROM conditioning RANDOM)
+LET audiostim2 = (FROM trial_c2 FIRST {with max 0 repeats in succession})
+LET reward2 = (FROM trial_c2 FIRST {with max 0 repeats in succession})
+LET audiostim_c2 = (FROM audiostim2 FIRST)
+LET reward_c2 = (FROM reward2 FIRST)
+AUDIO LEFT audiostim_c2 LOOP
+UNTIL KEY L JUMP STEP 14
+UNTIL TIME 2000 JUMP STEP 11
+
+STEP 11
+LIGHT reward_c2 ON
+UNTIL TIME 5000
+
+STEP 12
+Trial End
+LIGHT reward_c2 OFF
+AUDIO LEFT OFF
+
+STEP 13
+LOOP STEP 9
+UNTIL 9 TIMES JUMP STEP 37
+
+STEP 14
+LIGHT reward_c2 ON
+UNTIL TIME 5000
+
+STEP 15
+Trial End
+LIGHT reward_c2 OFF
+AUDIO LEFT OFF
+
+STEP 16
+UNTIL KEY C
+
+STEP 17
+Trial Start
+LET trial_c3 = (FROM conditioning RANDOM)
+LET audiostim3 = (FROM trial_c3 FIRST {with max 0 repeats in succession})
+LET reward3 = (FROM trial_c3 FIRST {with max 0 repeats in succession})
+LET audiostim_c3 = (FROM audiostim3 FIRST)
+LET reward_c3 = (FROM reward3 FIRST)
+AUDIO LEFT audiostim_c3 LOOP
+UNTIL KEY L JUMP STEP 20
+UNTIL TIME 3000 JUMP STEP 18
+
+STEP 18
+LIGHT reward_c3 ON
+UNTIL TIME 5000
+
+STEP 19
+Trial End
+LIGHT reward_c3 OFF
+AUDIO LEFT OFF
+UNTIL TIME 100 JUMP STEP 9
+
+STEP 20
+LIGHT reward_c3 ON
+UNTIL TIME 5000
+
+STEP 21
+Trial End
+LIGHT reward_c3 OFF
+AUDIO LEFT OFF
+
+STEP 22
+UNTIL KEY C
+
+STEP 23
+Trial Start
+LET trial_c4 = (FROM conditioning RANDOM)
+LET audiostim4 = (FROM trial_c4 FIRST {with max 0 repeats in succession})
+LET reward4 = (FROM trial_c4 FIRST {with max 0 repeats in succession})
+LET audiostim_c4 = (FROM audiostim4 FIRST)
+LET reward_c4 = (FROM reward4 FIRST)
+AUDIO LEFT audiostim_c4 LOOP
+UNTIL KEY L JUMP STEP 26
+UNTIL TIME 5000 JUMP STEP 24
+
+STEP 24
+LIGHT reward_c4 ON
+UNTIL TIME 5000
+
+STEP 25
+Trial End
+LIGHT reward_c4 OFF
+AUDIO LEFT OFF
+UNTIL TIME 100 JUMP STEP 9
+
+STEP 26
+LIGHT reward_c4 ON
+UNTIL TIME 5000
+
+STEP 27
+Trial End
+LIGHT reward_c4 OFF
+AUDIO LEFT OFF
+
+STEP 28
+Phase End
+
+STEP 29
+Phase Test Start
+
+STEP 30
+UNTIL KEY C
+
+STEP 31
+Trial Start
+LET trial_test5 = (FROM test RANDOM)
+LET audiostim5 = (FROM trial_test5 FIRST {with max 0 repeats in succession})
+LET reward5 = (FROM trial_test5 FIRST {with max 0 repeats in succession})
+LET audiostim_test5 = (FROM audiostim5 FIRST)
+LET reward_test5 = (FROM reward5 FIRST)
+AUDIO LEFT audiostim_test5 LOOP
+UNTIL TIME 5000 JUMP STEP 34
+UNTIL KEY L JUMP STEP 32
+
+# hit or false alarm
+STEP 32
+LIGHT reward_test5 ON
+UNTIL TIME 5000
+
+STEP 33
+Trial End
+LIGHT reward_test5 OFF
+AUDIO LEFT OFF
+UNTIL TIME 100 JUMP STEP 35
+
+#miss or correct rejection
+STEP 34
+Trial End
+AUDIO LEFT OFF
+UNTIL TIME 100
+
+STEP 35
+UNTIL TIME 100
+
+STEP 36
+LOOP STEP 30
+UNTIL 7 TIMES
+
+STEP 37
+Phase End
+AUDIO CENTER OFF
+
