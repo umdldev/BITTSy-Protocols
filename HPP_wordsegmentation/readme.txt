@@ -1,1 +1,3 @@
+This example protocol is based on Jusczyk & Aslin 1995, via a replication in Newman, Rowe & Ratner 2016. Included stimuli are those used in Newman et al. 2016.
 
+This study has an identical structure to the walkthrough on this page: https://ldevumd.gitbook.io/bittsy/creating-protocols/example-protocols/headturn-preference-paradigm-example . The differences are merely the stimuli used and the exact timings specified (e.g. the requirement for accumulated looking time in the familiarization phase is higher, because familiarization with the stimuli themselves is of interest, not just familiarization with the study procedure in general).
